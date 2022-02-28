@@ -1,0 +1,135 @@
+import styled, { keyframes } from "styled-components";
+
+
+export const MenuDiv = styled.div`
+
+margin: 2rem 3rem 0;
+
+
+.icon{
+   font-size: 2.5rem;
+   color: ${p => p.theme.colors.gray300};
+ 
+}
+
+
+
+`
+export const MenuAnimetion = keyframes`
+
+from{
+    opacity: 0;
+}  
+to {
+     
+      opacity: 1;
+    
+  }
+
+`
+
+
+
+export const HeaderContainer = styled.header`
+height:auto;
+background: ${p=>p.theme.colors.blue700};
+animation: ${MenuAnimetion} 1.2s forwards;
+animation-play-state: running;
+display:flex;
+
+opacity:0;
+border-bottom: 1px solid ;
+.iconClose{
+   
+  
+   font-size: 2.5rem;
+   color: ${p => p.theme.colors.gray300};
+   position:relative;
+   margin-left: 3rem;
+   margin-top: 2.5rem;
+  
+
+}
+
+
+`
+export const Conatainer = styled.div`
+
+   align-items:center;
+   width:100%;
+   height: 100%;
+   
+
+
+  
+`
+export const ContentImg = styled.div`
+
+text-align: center;
+ 
+img{
+    width: 170px;
+    position:relative;
+    bottom:5px;
+    
+    
+}
+
+`
+export const ContentNav = styled.div`
+
+width: 100%;
+text-align: center;
+
+nav{
+    color: ${p=> p.theme.colors.gray100};
+
+    a{
+        display: inline-block;
+        position: relative;
+        height: 5rem;
+        padding: 0 0.5rem;
+        line-height: 5rem;
+        font-size:1.5rem;
+
+        & + a{
+                margin-left: 2rem;
+             }
+        &:hover{
+            /*filter: brightness(0.8);*/
+            color: ${p=>p.theme.colors.yellow300}
+            
+        }
+        &.active{
+            color: ${p=>p.theme.colors.white};
+            font-weight: 600;
+        }
+             
+        &.active::after{
+            content: '';
+                 height: 3px;
+                 border-radius: 3px 3px 0 0;
+                 background: ${p=>p.theme.colors.yellow300};
+                 width: 100%;
+                 position: absolute;
+                 bottom: -1px;
+                 left: 0;
+
+        }
+    }
+  
+
+}
+
+
+
+
+`
+
+
+
+
+
+
+
+

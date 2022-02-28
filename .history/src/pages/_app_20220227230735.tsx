@@ -1,0 +1,21 @@
+
+import type { AppProps } from 'next/app';
+import Header from '../components/Header';
+import {ThemeLigthGlobal} from '../styles/global';
+import {ThemeProvider} from 'styled-components';
+import ligth from '../styles/theme/ligth';
+
+function MyApp({ Component, pageProps }:any) {
+  return(
+ <>
+ 
+  <Header></Header>
+  <Component {...pageProps} /> 
+  <ThemeLigthGlobal/>
+ </>
+  ) 
+  
+
+}
+
+export default MyApp

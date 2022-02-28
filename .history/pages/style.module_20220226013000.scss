@@ -1,0 +1,41 @@
+
+
+
+.backgroundImages{
+   
+
+    
+
+
+   width: 100vh;
+   height: 100vh;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   backface-visibility: hidden;
+   animation: slideBg 30s linear infinite 0s;
+   animation-timing-function: ease-in-out;
+   background-image: url('../public/images/algarve.jpg');
+   
+
+
+
+     @keyframes slideBg{
+      0%{
+         background-image:  url('../public/images/algarve.jpg');
+      }
+      25%{
+         background-image:  url('../public/images/espanha.jpg');
+      }
+      50%{
+        background-image:  url('../public/images/paris.jpg');
+      }
+      75%{
+        background-image:  url('../public/images/alemanha.jpg');
+      }
+      100%{
+      background-image:  url('../public/images/italia.jpg');
+      }
+     }
+   }
+

@@ -1,0 +1,54 @@
+
+
+
+.backgroundImages{
+   
+
+    
+
+
+   width: 100%;
+   height: 100vh;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   backface-visibility: hidden;
+   animation: bounce 60s infinite alternate;
+   -webkit-animation: bounce 60s infinite alternate;
+   background-image: url('../public/images/algarve.jpg');
+   opacity: 0.8;
+   transition: 0.3s;
+   
+
+
+
+     @keyframes bounce{
+      0%{
+         background-image:  url('../public/images/algarve.jpg');
+         opacity: 0.8;
+         transition: 0.3s;
+        
+      }
+      25%{
+         background-image:  url('../public/images/espanha.jpg');
+         opacity: 0.8;
+         transition: 0.3s;
+      }
+      50%{
+        background-image:  url('../public/images/paris.jpg');
+        opacity: 0.8;
+        transition: 0.3s;
+      }
+      75%{
+        background-image:  url('../public/images/alemanha.jpg');
+        opacity: 0.8;
+        transition: 0.3s;
+      }
+      100%{
+      background-image:  url('../public/images/italia.jpg');
+      opacity: 0.8;
+      transition: 0.3s;
+      }
+     }
+   }
+
