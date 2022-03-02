@@ -11,7 +11,7 @@ export const ThemeLigthGlobal = createGlobalStyle`
     overflow: hidden;
 }
 html{
-    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 @media (max-width: 1080px) {
     html{

@@ -7,11 +7,8 @@ export const ThemeLigthGlobal = createGlobalStyle`
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-html{
-    overflow-y: scroll;
+    
+    
 }
 @media (max-width: 1080px) {
     html{

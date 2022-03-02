@@ -79,7 +79,7 @@ height: auto;
 text-align: center;
 position: relative;
 bottom: -7rem;
-left: 32rem
+left: 30rem
 
 
 `

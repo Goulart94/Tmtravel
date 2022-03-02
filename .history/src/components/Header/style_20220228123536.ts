@@ -84,7 +84,6 @@ to {
 
 
 export const HeaderContainer = styled.header`
-width: 100%;
 height: auto;
 background: ${p=>p.theme.colors.blue700};
 animation: ${MenuAnimetion} 1.2s forwards;

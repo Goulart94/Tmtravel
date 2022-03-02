@@ -61,7 +61,7 @@ height: auto;
 text-align: center;
 position: relative;
 bottom: 2rem;
-left: 5rem
+left: 7rem
 
 
 `
@@ -78,8 +78,8 @@ max-width: 400px;
 height: auto;
 text-align: center;
 position: relative;
-bottom: -7rem;
-left: 32rem
+bottom: 1rem;
+left: 35rem
 
 
 `

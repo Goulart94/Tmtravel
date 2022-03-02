@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     <ContainerSlider>
       <SlederShow/>
     </ContainerSlider>
-    <ContainerSales/>
+    
     
     
      

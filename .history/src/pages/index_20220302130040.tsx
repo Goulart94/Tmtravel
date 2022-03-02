@@ -16,10 +16,13 @@ const Home: NextPage = () => {
       </Head>
     <ContainerSlider>
       <SlederShow/>
+       
+      
+      
     </ContainerSlider>
-    <ContainerSales/>
-    
-    
+   
+   
+
      
     </>
   )

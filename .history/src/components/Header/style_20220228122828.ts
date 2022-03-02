@@ -9,8 +9,7 @@ height:8.5rem;
 display:flex;
 position: fixed;
 border-bottom: solid 2.5px ${p=>p.theme.colors.blue700};
-z-index: 2;
-background: ${p =>p.theme.colors.white100};
+z-index: -4;
 
 
 div{
@@ -84,14 +83,11 @@ to {
 
 
 export const HeaderContainer = styled.header`
-width: 100%;
 height: auto;
 background: ${p=>p.theme.colors.blue700};
 animation: ${MenuAnimetion} 1.2s forwards;
 animation-play-state: running;
 display:flex;
-position: fixed;
-z-index: 2;
 
 
 opacity:0;

@@ -10,9 +10,6 @@ export const ThemeLigthGlobal = createGlobalStyle`
     box-sizing: border-box;
     overflow: hidden;
 }
-html{
-    overflow-y: scroll;
-}
 @media (max-width: 1080px) {
     html{
         font-size: 93.75%;

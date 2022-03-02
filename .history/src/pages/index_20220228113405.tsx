@@ -1,8 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import ContainerSales from '../components/ContainerSales'
 import { SlederShow } from '../components/SliderShow'
-import { ContainerSlider } from './home'
 
 
 
@@ -14,12 +12,16 @@ const Home: NextPage = () => {
       <Head>
         <title>TmTravel | Home</title>
       </Head>
-    <ContainerSlider>
+    <div >
       <SlederShow/>
-    </ContainerSlider>
-    <ContainerSales/>
-    
-    
+      <section>
+        <h1>hello World</h1>
+      </section>
+      
+     
+    </div>
+      
+
      
     </>
   )
