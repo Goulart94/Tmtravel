@@ -42,7 +42,7 @@ p{
 }
 div{
     
-  text-align: center;
+
     
     span{
         margin-right: 2rem;
@@ -51,7 +51,7 @@ div{
         transition: 0.3s;
 
        &:hover{
-            color: ${p=>p.theme.colors.yellow300};
+            transform: scale(1.08);
         }
 
     } 

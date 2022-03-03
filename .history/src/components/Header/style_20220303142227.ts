@@ -11,7 +11,7 @@ position: fixed;
 border-bottom: solid 2.5px ${p=>p.theme.colors.blue700};
 z-index: 3;
 background: ${p =>p.theme.colors.white100};
-
+opacity: 0.8;
 
 
 div{

@@ -13,7 +13,6 @@ z-index: 3;
 background: ${p =>p.theme.colors.white100};
 
 
-
 div{
     
     position:relative;
@@ -60,7 +59,7 @@ div{
     width:100%;
     text-align: center;
     img{
-    width: 140px;
+    width: 150px;
     position:relative;
     bottom:5px;
     right: 2.5rem;
@@ -69,7 +68,7 @@ div{
 .configImg{
 
     position: relative;
-    right: 5rem;
+    right: 4.5rem;
 }
     
 }

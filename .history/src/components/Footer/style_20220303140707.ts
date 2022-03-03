@@ -23,7 +23,7 @@ justify-content: space-between;
 
 `
 export const Content = styled.div`
-margin: 3rem 4rem 1rem 4rem;
+margin: 0 4rem 2rem 4rem;
 width: 720px;
 height: 250px;
 padding-left: 4rem;
@@ -41,20 +41,11 @@ p{
     
 }
 div{
-    
-  text-align: center;
+    width: 100%;
     
     span{
-        margin-right: 2rem;
         font-size: 3rem;
-        color: ${p=>p.theme.colors.white100};
-        transition: 0.3s;
-
-       &:hover{
-            color: ${p=>p.theme.colors.yellow300};
-        }
-
-    } 
+    }
 }
 
 

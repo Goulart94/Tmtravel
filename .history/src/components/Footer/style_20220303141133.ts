@@ -42,16 +42,16 @@ p{
 }
 div{
     
-  text-align: center;
+
     
     span{
         margin-right: 2rem;
         font-size: 3rem;
         color: ${p=>p.theme.colors.white100};
-        transition: 0.3s;
+        transition:3s;
 
        &:hover{
-            color: ${p=>p.theme.colors.yellow300};
+            transform: scale(1.08);
         }
 
     } 

@@ -1,5 +1,5 @@
 import { Container, Content, FooterContainer } from "./style";
-import {BsInstagram, BsFacebook, BsYoutube, BsWhatsapp} from 'react-icons/bs';
+import {BsInstagram, BsFacebook} from 'react-icons/bs';
 
 
 export default function Footer() {
@@ -14,12 +14,9 @@ export default function Footer() {
 
               </Content>
               <Content>
-                <div>
-                 <span><BsInstagram/></span>
-                 <span><BsFacebook/></span>
-                 <span><BsYoutube/></span>
-                 <span><BsWhatsapp/></span>
-                </div>
+                 <BsInstagram></BsInstagram>
+                 <BsFacebook></BsFacebook>
+                
               </Content>
           </Container>
           

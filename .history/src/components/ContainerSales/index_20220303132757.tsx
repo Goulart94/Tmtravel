@@ -5,7 +5,7 @@ import { Button, Container, ContentSale, Title } from './style';
 export default function ContainerSales() {
   return (
    <> 
-    <Title>Produtos <span>Especiais</span> Europa </Title>
+    <Title>Produtos <span>Especiais</span> </Title>
     <Container>
      
        <ContentSale>
@@ -36,10 +36,8 @@ export default function ContainerSales() {
       
        
     </Container>
-    <Title>Produtos <span>Especiais</span> Brasil </Title>
-
     <Container>
-       <ContentSale>
+    <ContentSale>
           <div>
            <img src='/images/cardRecife.png' alt="" />
           </div>

@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 
 export const Title = styled.h1`
-margin-top: 5rem;
+margin-top: 2rem;
 text-align: center;
 font-size: 4rem;
 color: ${p=>p.theme.colors.blue700};
-font-weight: 400;
+font-weight: 700;
 span{
     color: ${p => p.theme.colors.yellow300};
 }
@@ -20,7 +20,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
-padding: 0rem 5rem 0rem 5rem;
+padding: 0rem 4rem 4rem 4rem;
 
 
 h1{
@@ -29,8 +29,7 @@ h1{
 
 `
 export const ContentSale = styled.div`
-margin-top: 2rem;
-margin-bottom: 4rem;
+margin-top: 7rem;
 width:420px;
 height: 450px;
 background: ${p=>p.theme.colors.gray100};
@@ -81,7 +80,7 @@ font-size: 1.5rem;
 font-weight: 700;
 background: ${p=>p.theme.colors.yellow300};
 position:relative;
-left: 6.5rem;
+left: 8rem;
 top: 1rem;
 
 &:hover{

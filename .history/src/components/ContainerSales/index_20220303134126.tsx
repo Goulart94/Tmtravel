@@ -36,7 +36,7 @@ export default function ContainerSales() {
       
        
     </Container>
-    <Title>Produtos <span>Especiais</span> Brasil </Title>
+    <Title>Produtos <span>Especiais</span> Brasil. </Title>
 
     <Container>
        <ContentSale>

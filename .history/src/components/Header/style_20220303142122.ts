@@ -13,7 +13,6 @@ z-index: 3;
 background: ${p =>p.theme.colors.white100};
 
 
-
 div{
     
     position:relative;
@@ -69,7 +68,7 @@ div{
 .configImg{
 
     position: relative;
-    right: 5rem;
+    right: 4.5rem;
 }
     
 }

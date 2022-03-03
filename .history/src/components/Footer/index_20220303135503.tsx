@@ -15,10 +15,10 @@ export default function Footer() {
               </Content>
               <Content>
                 <div>
-                 <span><BsInstagram/></span>
-                 <span><BsFacebook/></span>
-                 <span><BsYoutube/></span>
-                 <span><BsWhatsapp/></span>
+                 <BsInstagram></BsInstagram>
+                 <BsFacebook></BsFacebook>
+                 <BsYoutube></BsYoutube>
+                 <BsWhatsapp></BsWhatsapp>
                 </div>
               </Content>
           </Container>

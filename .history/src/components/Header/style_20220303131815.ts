@@ -5,13 +5,12 @@ import styled, { keyframes } from "styled-components";
 export const MenuDiv = styled.div`
 
 width:100%;
-height: 6rem;
+height:8.5rem;
 display:flex;
 position: fixed;
 border-bottom: solid 2.5px ${p=>p.theme.colors.blue700};
-z-index: 3;
+z-index: 2;
 background: ${p =>p.theme.colors.white100};
-
 
 
 div{
@@ -23,9 +22,8 @@ div{
    
  
    }
-   label{
-       
-    .icon{
+   label
+   {.icon{
    margin-left: 2rem;
    margin-top: 3rem;
    font-size: 2rem;
@@ -33,13 +31,12 @@ div{
    position:relative;
    bottom:30px;
    transition: 0.2s;
-   }
 
  
-  
+   }
     font-size: 1.2rem;
     color: ${p => p.theme.colors.gray700};
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-left: 2rem;
     padding-right: 1rem;
     transition: 0.2s;
@@ -60,7 +57,7 @@ div{
     width:100%;
     text-align: center;
     img{
-    width: 140px;
+    width: 200px;
     position:relative;
     bottom:5px;
     right: 2.5rem;
@@ -69,7 +66,7 @@ div{
 .configImg{
 
     position: relative;
-    right: 5rem;
+    right: 4.5rem;
 }
     
 }

@@ -14,12 +14,11 @@ export default function Footer() {
 
               </Content>
               <Content>
-                <div>
-                 <span><BsInstagram/></span>
-                 <span><BsFacebook/></span>
-                 <span><BsYoutube/></span>
-                 <span><BsWhatsapp/></span>
-                </div>
+                 <h1><BsInstagram></BsInstagram>
+                 <BsFacebook></BsFacebook>
+                 <BsYoutube></BsYoutube>
+                 <BsWhatsapp></BsWhatsapp></h1>
+                
               </Content>
           </Container>
           

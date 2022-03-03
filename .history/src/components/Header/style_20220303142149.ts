@@ -13,7 +13,6 @@ z-index: 3;
 background: ${p =>p.theme.colors.white100};
 
 
-
 div{
     
     position:relative;

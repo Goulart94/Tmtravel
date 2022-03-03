@@ -36,10 +36,8 @@ export default function ContainerSales() {
       
        
     </Container>
-    <Title>Produtos <span>Especiais</span> Brasil </Title>
-
     <Container>
-       <ContentSale>
+    <ContentSale>
           <div>
            <img src='/images/cardRecife.png' alt="" />
           </div>

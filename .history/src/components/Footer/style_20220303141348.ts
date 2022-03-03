@@ -42,7 +42,7 @@ p{
 }
 div{
     
-  text-align: center;
+
     
     span{
         margin-right: 2rem;

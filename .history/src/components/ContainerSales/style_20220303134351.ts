@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Title = styled.h1`
 margin-top: 5rem;
 text-align: center;
-font-size: 4rem;
+font-size: 3rem;
 color: ${p=>p.theme.colors.blue700};
 font-weight: 400;
 span{
@@ -20,7 +20,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: wrap;
-padding: 0rem 5rem 0rem 5rem;
+padding: 0rem 5rem 4rem 5rem;
 
 
 h1{
@@ -29,8 +29,7 @@ h1{
 
 `
 export const ContentSale = styled.div`
-margin-top: 2rem;
-margin-bottom: 4rem;
+margin-top: 4rem;
 width:420px;
 height: 450px;
 background: ${p=>p.theme.colors.gray100};
