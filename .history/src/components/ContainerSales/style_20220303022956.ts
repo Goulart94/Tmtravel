@@ -29,7 +29,7 @@ h1{
 
 `
 export const ContentSale = styled.div`
-margin-top: 7rem;
+margin-top: 4rem;
 width:430px;
 height: 450px;
 background: ${p=>p.theme.colors.gray100};

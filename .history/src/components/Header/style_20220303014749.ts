@@ -66,7 +66,7 @@ div{
 .configImg{
 
     position: relative;
-    right: 4.5rem;
+    right: 4rem;
 }
     
 }
@@ -133,7 +133,6 @@ img{
     width: 200px;
     position:relative;
     bottom:5px;
-    right: 2.5rem;
 }
 
 `

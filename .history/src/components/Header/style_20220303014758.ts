@@ -133,7 +133,6 @@ img{
     width: 200px;
     position:relative;
     bottom:5px;
-    right: 2.5rem;
 }
 
 `

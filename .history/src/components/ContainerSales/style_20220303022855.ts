@@ -29,9 +29,9 @@ h1{
 
 `
 export const ContentSale = styled.div`
-margin-top: 7rem;
-width:430px;
-height: 450px;
+margin-top: 4rem;
+width:440px;
+height: 434x;
 background: ${p=>p.theme.colors.gray100};
 border-radius: 5px;
 margin:none;

@@ -19,9 +19,7 @@ width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-flex-wrap: wrap;
-padding: 0rem 4rem 4rem 4rem;
-
+padding: 4rem;
 
 h1{
     display: block;
@@ -29,8 +27,8 @@ h1{
 
 `
 export const ContentSale = styled.div`
-margin-top: 7rem;
-width:430px;
+
+width:450px;
 height: 450px;
 background: ${p=>p.theme.colors.gray100};
 border-radius: 5px;
@@ -49,6 +47,8 @@ div{
         height: 250px;
         margin: none;
         border-radius: 5px;
+
+       
         
     }
 }

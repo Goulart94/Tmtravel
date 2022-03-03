@@ -17,10 +17,6 @@ export const Container = styled.section`
 width: 100%;
 
 display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
-padding: 0rem 4rem 4rem 4rem;
 
 
 h1{
@@ -29,8 +25,8 @@ h1{
 
 `
 export const ContentSale = styled.div`
-margin-top: 7rem;
-width:430px;
+margin: 5rem;
+width:450px;
 height: 450px;
 background: ${p=>p.theme.colors.gray100};
 border-radius: 5px;

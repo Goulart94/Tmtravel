@@ -46,7 +46,7 @@ export default function ContainerSales() {
            <img src='/images/cardRio.jpg' alt="" />
           </div>
           <h1>Rio de Janeiro-BR</h1>
-          <h3>Desde R$1,790</h3>
+          <h3>Desde R$3,790</h3>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>

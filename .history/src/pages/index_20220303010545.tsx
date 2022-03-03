@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 
     <ContainerSales/>
 
-    <Footer/>
+    <Footer></Footer>
 
 
     
