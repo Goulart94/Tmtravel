@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import { SlederShow } from '../components/SliderShow'
 import { ContainerSlider } from '../styles/componetsStyles/home';
 
-
+import { attributes, react as HomeContent } from '../content/index.md';
 
 
 
@@ -26,7 +26,6 @@ const Home: NextPage = () => {
     <ContainerSales/>
 
     <Footer/>
-    
 
 
     

@@ -2,7 +2,6 @@ import React from 'react'
 import { Button, Container, ContentSale, Title } from './style';
 
 
-
 export default function ContainerSales() {
   return (
    <> 

@@ -26,7 +26,7 @@ const Home: NextPage = () => {
     <ContainerSales/>
 
     <Footer/>
-    
+    <p>{attributes.}</p>
 
 
     

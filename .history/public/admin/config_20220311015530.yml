@@ -11,7 +11,6 @@ public_folder: "/images"
 collections:
   - name: "pages"
     label: "Pages"
-    create: true 
     files:
     - label: "Home"
       name: "home"

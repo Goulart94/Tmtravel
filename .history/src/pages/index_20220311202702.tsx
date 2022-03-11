@@ -11,7 +11,6 @@ import { ContainerSlider } from '../styles/componetsStyles/home';
 
 
 
-
 const Home: NextPage = () => {
   return (
     <>
@@ -26,7 +25,6 @@ const Home: NextPage = () => {
     <ContainerSales/>
 
     <Footer/>
-    
 
 
     

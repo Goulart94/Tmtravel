@@ -1,4 +1,5 @@
 import React from 'react'
+import { Content } from '../Footer/style';
 import { Button, Container, ContentSale, Title } from './style';
 
 
@@ -52,7 +53,7 @@ export default function ContainerSales() {
           <div>
            <img src='/images/cardRio.jpg' alt="" />
           </div>
-          <h1>Rio de Janeiro-BR</h1>
+          <h1>{content.}</h1>
           <h3>Desde R$1,790</h3>
           <Button>Ver oferta</Button>
        </ContentSale>

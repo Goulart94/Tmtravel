@@ -3,10 +3,7 @@ import Head from 'next/head'
 import ContainerSales from '../components/ContainerSales'
 import Footer from '../components/Footer'
 import { SlederShow } from '../components/SliderShow'
-import { ContainerSlider } from '../styles/componetsStyles/home';
-
-
-
+import { ContainerSlider } from '../styles/componetsStyles/home'
 
 
 
@@ -26,7 +23,6 @@ const Home: NextPage = () => {
     <ContainerSales/>
 
     <Footer/>
-    
 
 
     
