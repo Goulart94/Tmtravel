@@ -8,7 +8,7 @@ import { ContainerSlider } from '../styles/componetsStyles/home';
 import Prismic from "@prismicio/client";
 import {RichText} from 'prismic-dom';
 
-interface ContentSale{
+type ContentSale = {
   slug: string;
   title: string;
   price: string;
@@ -45,6 +45,11 @@ export default function  Home  ( {contentSaleOne} : ContentOne ){
 
   <Footer/>
    
+
+
+    
+    
+     
     </>
   )
 }
