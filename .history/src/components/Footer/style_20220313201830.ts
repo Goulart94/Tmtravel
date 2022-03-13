@@ -4,7 +4,7 @@ export const FooterContainer = styled.footer`
 width: 100%;
 background: ${p=>p.theme.colors.blue700};
 margin-top: 4rem;
-
+height:350px;
 
 
 

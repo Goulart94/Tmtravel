@@ -12,7 +12,6 @@ export const ContainerFont = styled.div`
 
 font: 400 1rem "Roboto", sans-serif;
 
-
 `
 
 

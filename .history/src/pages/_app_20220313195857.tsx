@@ -12,7 +12,6 @@ export const ContainerFont = styled.div`
 
 font: 400 1rem "Roboto", sans-serif;
 
-
 `
 
 
@@ -23,11 +22,9 @@ function MyApp({ Component, pageProps }:any) {
 
  <ContainerFont>
   <Header></Header>
-  
   <Component {...pageProps} /> 
   <ThemeLigthGlobal/>
-  
-  <Footer></Footer>
+   <Footer></Footer>
   </ContainerFont>
  
   

@@ -9,7 +9,7 @@ height: 6rem;
 display:flex;
 position: fixed;
 border-bottom: solid 1px ${p=>p.theme.colors.blue700};
-z-index: 3;
+
 background: ${p =>p.theme.colors.white100};
 
 

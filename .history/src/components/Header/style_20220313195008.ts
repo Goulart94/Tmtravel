@@ -27,11 +27,10 @@ div{
        
     .icon{
    margin-left: 2rem;
-   margin-top: 3rem;
+   margin-top: 3.5rem;
    font-size: 2rem;
    color: ${p => p.theme.colors.gray700};
    position:relative;
-   bottom:-5px;
    transition: 0.2s;
    }
 

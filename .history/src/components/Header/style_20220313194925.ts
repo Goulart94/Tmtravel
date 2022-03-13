@@ -31,7 +31,7 @@ div{
    font-size: 2rem;
    color: ${p => p.theme.colors.gray700};
    position:relative;
-   bottom:-5px;
+   bottom:20px;
    transition: 0.2s;
    }
 

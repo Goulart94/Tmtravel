@@ -45,10 +45,10 @@ return (
             <ContentNav>
                <nav>
                   <Link href='./'><a className='active' ><ImHome3 fontSize={'1.3rem'}/> Home</a></Link>
-                  <Link href="./Tickets"><a><ImAirplane fontSize={'1rem'}/> Passagens</a></Link>
-                  <Link href='./Packages'><a><MdAirlineSeatIndividualSuite className='iconBed'/> Pacotes</a></Link>
-                  <Link href='./Insurance'><a ><FaSuitcase fontSize={'1.1rem'}/> Seguros</a></Link>
-                  <Link href='./Contact'><a><ImPhone fontSize={'1.2rem'}/> Contatos</a></Link>
+                  <Link href="./Tickets"><a><ImAirplane fontSize={'1rem'}/>  Passagens</a></Link>
+                  <Link href='./Insurance'><a><MdAirlineSeatIndividualSuite className='iconBed'/> Pacotes</a></Link>
+                  <a ><FaSuitcase fontSize={'1.1rem'}/> Seguros</a>
+                  <a><ImPhone fontSize={'1.2rem'}/> Contatos</a>
                </nav>
             </ContentNav>
 
