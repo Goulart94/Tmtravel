@@ -70,7 +70,8 @@ transition: 0.3s;
     height: 318px;
     background: ${p=> p.theme.colors.white100};
     border-radius: 10px;
-    
+    display: flex;
+    align-items: center;
     
     color: ${p => p.theme.colors.gray700};
     padding: 2rem 0.5rem;
@@ -198,14 +199,6 @@ border-radius: 20px;
 background: ${p =>p.theme.colors.yellow300};
 border: none;
 margin-top: 2rem;
-color: ${p=>p.theme.colors.gray700};
-font-weight: 700;
-transition: 0.4s;
-
-&:hover{
-    cursor: pointer;
-    filter: brightness(0.8);
-}
 
 
 

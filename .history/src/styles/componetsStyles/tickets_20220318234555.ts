@@ -198,14 +198,7 @@ border-radius: 20px;
 background: ${p =>p.theme.colors.yellow300};
 border: none;
 margin-top: 2rem;
-color: ${p=>p.theme.colors.gray700};
-font-weight: 700;
-transition: 0.4s;
-
-&:hover{
-    cursor: pointer;
-    filter: brightness(0.8);
-}
+color: ${p=>p.theme.colors.gray700}
 
 
 

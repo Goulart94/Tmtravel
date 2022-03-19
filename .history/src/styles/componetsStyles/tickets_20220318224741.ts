@@ -69,32 +69,15 @@ transition: 0.3s;
     border-left: 2px dashed ${p=> p.theme.colors.gray300};
     height: 318px;
     background: ${p=> p.theme.colors.white100};
-    border-radius: 10px;
-    
-    
-    color: ${p => p.theme.colors.gray700};
-    padding: 2rem 0.5rem;
-    span{
-        font-size: 0.75rem;  
-    }
-    h2{
-        color: ${p=>p.theme.colors.blue700};
-        font-weight: 700;
-        margin-top: 3rem;
-        
-        font-size: 2rem;
-        span{
-            font-size: 0.9rem;
-        }
-    }
-    
+    border-radius: 10px;   
+   
 }
 .details{
     
-    padding: 0 2rem;
+    margin-left: 40px;
     height: 159px;
     border-bottom: 1px solid ${p=> p.theme.colors.gray300};
-    justify-content: space-between; 
+    justify-content: flex-start; 
     display: flex;
     flex-wrap: nowrap;
     
@@ -116,11 +99,11 @@ transition: 0.3s;
     font-size: 0.75rem;
     font-weight: 400;
     padding:0;
+    
     letter-spacing: 0.03333em;
-    }
-    .suitcase{
-        text-align: center;
-        width: 100px;
+
+    
+    
     }
     div{
         color: ${p => p.theme.colors.gray700};
@@ -136,7 +119,6 @@ transition: 0.3s;
             font-weight: 400;
             
             
-            
         }
         
 
@@ -145,7 +127,6 @@ transition: 0.3s;
         top: 5px;
         margin-bottom: 1rem;
         font-size: 1.5rem;
-        
        }
 
         .iconsAirPlane{
@@ -187,25 +168,6 @@ box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 }
 
 
-
-
-
-`
-export const Button = styled.button`
-width: 175px;
-height: 3rem;
-border-radius: 20px;
-background: ${p =>p.theme.colors.yellow300};
-border: none;
-margin-top: 2rem;
-color: ${p=>p.theme.colors.gray700};
-font-weight: 700;
-transition: 0.4s;
-
-&:hover{
-    cursor: pointer;
-    filter: brightness(0.8);
-}
 
 
 

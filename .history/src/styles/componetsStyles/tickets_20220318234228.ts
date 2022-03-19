@@ -70,7 +70,7 @@ transition: 0.3s;
     height: 318px;
     background: ${p=> p.theme.colors.white100};
     border-radius: 10px;
-    
+    display: flex;
     
     color: ${p => p.theme.colors.gray700};
     padding: 2rem 0.5rem;
@@ -192,20 +192,12 @@ box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 
 `
 export const Button = styled.button`
-width: 175px;
+width: 9rem;
 height: 3rem;
 border-radius: 20px;
 background: ${p =>p.theme.colors.yellow300};
 border: none;
 margin-top: 2rem;
-color: ${p=>p.theme.colors.gray700};
-font-weight: 700;
-transition: 0.4s;
-
-&:hover{
-    cursor: pointer;
-    filter: brightness(0.8);
-}
 
 
 

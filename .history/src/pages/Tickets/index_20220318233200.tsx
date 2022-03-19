@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerTickets, ContentTickets, ContainerImage, ContentChange, Button } from '../../styles/componetsStyles/tickets';
+import { ContainerTickets, ContentTickets, ContainerImage, ContentChange } from '../../styles/componetsStyles/tickets';
 import {GiAirplaneDeparture, GiRollingSuitcase, GiAirplaneArrival} from 'react-icons/gi';
 export default function Tickets() {
   return (
@@ -73,13 +73,7 @@ export default function Tickets() {
 
          </div>
          <div className='ticketPrice' >
-            <div>
-             <span>A partir:</span>
-             <h2><span>Adulto/R$:</span>3,599</h2>
-             <span>Total 1 passageiro</span>
-             <Button>Consultar</Button>
-             <span>Fale com um de nossos consultores para confirmar a oferta.</span>
-            </div>
+            
          </div> 
          
         
@@ -146,13 +140,7 @@ export default function Tickets() {
 
          </div>
          <div className='ticketPrice' >
-           <div>
-             <span>A partir:</span>
-             <h2><span>Adulto/R$:</span>2,990</h2>
-             <span>Total 1 passageiro</span>
-             <Button>Consultar</Button>
-             <span>Fale com um de nossos consultores para confirmar a oferta.</span>
-            </div>
+            
          </div> 
          
         
@@ -219,13 +207,6 @@ export default function Tickets() {
 
          </div>
          <div className='ticketPrice' >
-         <div>
-             <span>A partir:</span>
-             <h2><span>Adulto/R$:</span>2,799</h2>
-             <span>Total 1 passageiro</span>
-             <Button>Consultar</Button>
-             <span>Fale com um de nossos consultores para confirmar a oferta.</span>
-             </div>
             
          </div> 
          
@@ -295,10 +276,8 @@ export default function Tickets() {
          <div className='ticketPrice' >
            <div>
              <span>A partir:</span>
-             <h2><span>Adulto/R$:</span>2,500</h2>
+             <h2><span>R$:</span>2,500</h2>
              <span>Total 1 passageiro</span>
-            <Button>Consultar</Button>
-            <span>Fale com um de nossos consultores para confirmar a oferta.</span>
            </div>
             
          </div> 
