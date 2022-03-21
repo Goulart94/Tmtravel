@@ -15,6 +15,7 @@ span{
 export const Container = styled.section`
 
 width: 100%;
+
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -32,7 +33,8 @@ margin-top: 2rem;
 margin-bottom: 4rem;
 display: flex;
 flex-direction: column;
-width:400px;
+flex-grow: 1;
+max-width:300px;
 height: 450px;
 background: ${p=>p.theme.colors.gray100};
 border-radius: 15px;
@@ -82,7 +84,7 @@ h3{
 
 `
 export const Button = styled.button`
-
+width: 200px;
 height: 4rem;
 border: none;
 border-radius: 10px;
@@ -90,7 +92,9 @@ color:${p=>p.theme.colors.blue700};
 font-size: 1.5rem;
 font-weight: 700;
 background: ${p=>p.theme.colors.yellow300};
-margin: 1rem 4rem;
+position:relative;
+left: 6.5rem;
+top: 1rem;
 transition: 0.4s;
 &:hover{
     filter: brightness(0.8);

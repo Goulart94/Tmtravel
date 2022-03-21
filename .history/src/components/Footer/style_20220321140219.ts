@@ -25,7 +25,6 @@ justify-content: space-between;
 `
 export const Content = styled.div`
 margin: 3rem 4rem 1rem 4rem;
-max-width: 720px;
 height: 250px;
 padding-left: 4rem;
 
@@ -43,7 +42,7 @@ p{
 }
 div{
     
-  
+  text-align: center;
     
     span{
         margin-right: 2rem;

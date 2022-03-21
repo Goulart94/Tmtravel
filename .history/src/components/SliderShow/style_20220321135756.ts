@@ -20,11 +20,6 @@ background-position: 10% 160%;
 height: 800px;
 
 display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: nowrap;
-padding: 1rem 5rem;
-
 
 
   

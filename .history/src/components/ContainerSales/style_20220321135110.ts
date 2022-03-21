@@ -15,6 +15,7 @@ span{
 export const Container = styled.section`
 
 width: 100%;
+
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -90,7 +91,7 @@ color:${p=>p.theme.colors.blue700};
 font-size: 1.5rem;
 font-weight: 700;
 background: ${p=>p.theme.colors.yellow300};
-margin: 1rem 4rem;
+margin: 1rem 2rem;
 transition: 0.4s;
 &:hover{
     filter: brightness(0.8);

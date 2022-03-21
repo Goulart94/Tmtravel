@@ -20,11 +20,6 @@ background-position: 10% 160%;
 height: 800px;
 
 display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: nowrap;
-padding: 1rem 5rem;
-
 
 
   
@@ -69,10 +64,12 @@ color:${p=>p.theme.colors.yellow300};
 border: solid 1px transparent;
 border-radius: 10px;
 background: rgba(0, 252, 255, 0.1);
-max-width: 300px;
-max-height: 250px;
+max-width: 400px;
+height: auto;
 text-align: center;
-
+position: relative;
+bottom: 2rem;
+left: 6rem;
 
 
 `
@@ -86,10 +83,9 @@ border: solid 1px transparent;
 border-radius: 10px;
 background: rgba(0, 252, 255, 0.1);
 max-width: 300px;
-max-height: 250px;
 height: auto;
 text-align: center;
-
+float: right;
 
 
 

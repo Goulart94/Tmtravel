@@ -43,10 +43,10 @@ p{
 }
 div{
     
-  
+  text-align: center;
     
     span{
-        margin-right: 2rem;
+        
         font-size: 3rem;
         color: ${p=>p.theme.colors.white100};
         transition: 0.3s;
