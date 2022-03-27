@@ -11,7 +11,6 @@ interface ContentSale{
   title: string;
   price: string;
   image: string;
-  details: string;
 }
 
 interface ContentOne{
@@ -33,7 +32,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
 
   return (
     <>
-    <ContainerImage></ContainerImage>
+    <ContainerImage/>
     <Title>Pacotes</Title>
     
     <PackagesSection>
@@ -43,35 +42,13 @@ export default function Packages( {contentSaleOne} : ContentOne) {
       <div className='ContainerText'>
        <div>
          <p>
-          {sale1?.details}
+          A Índia é um extenso país do Sul da Ásia com geografia diversificada, incluindo desde os picos do Himalaia até a costa do Oceano Índico, e uma história que remonta a cinco milênios. No norte, alguns dos monumentos do império mogol são o complexo do Forte Vermelho, em Délhi, e a imponente mesquita Jama Masjid, bem como o clássico mausoléu Taj Mahal, em Agra. Os peregrinos tomam banho no Ganges, em Varanasi. Rishikesh é um centro de ioga que serve de base para trilhas no Himalaia.
+        
          </p>
          <h2>{sale1?.title}</h2>
-         <h3><span className='spanPrice'>Desde </span>R$: {sale1?.price}</h3>
-         <span>Estadia 7 noites hotel + Vooo</span><br />
-         <span className='label'>*preço por passageiro</span>
        </div> 
 
-        <Button>Entra em contato</Button>
-        
-      </div>
-
-    </PackagesSection>
-    <PackagesSection>
-      <div>
-        <img src={sale2?.image} alt="" />
-      </div>
-      <div className='ContainerText'>
-       <div>
-         <p>
-          {sale2?.details}
-         </p>
-         <h2>{sale2?.title}</h2>
-         <h3><span className='spanPrice'>Desde </span>R$: {sale2?.price}</h3>
-         <span>Estadia 7 noites hotel + Vooo</span><br />
-         <span className='label'>*preço por passageiro</span>
-       </div> 
-
-        <Button>Entra em contato</Button>
+        <footer><Button>Entre em contato</Button></footer>
         
       </div>
 
@@ -90,7 +67,7 @@ export const getStaticProps : GetStaticProps = async () => {
 
   const response = await prismic.query<any>(
     [Prismic.Predicates.at('document.type','saleone')],{
-      fetch: ['saleone.image','saleone.title', 'saleone.price', 'saleone.details' ]
+      fetch: ['saleone.image','saleone.title', 'saleone.price', ]
     }
 
 
@@ -102,7 +79,6 @@ export const getStaticProps : GetStaticProps = async () => {
         title: RichText.asText(contentSale.data.title) || null,
         price: RichText.asText(contentSale.data.price) || null,
         image: contentSale.data.image.url || null,
-        details: contentSale.data.details || null,
         
       };
     });

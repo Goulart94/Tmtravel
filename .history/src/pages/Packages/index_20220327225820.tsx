@@ -48,30 +48,10 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          <h2>{sale1?.title}</h2>
          <h3><span className='spanPrice'>Desde </span>R$: {sale1?.price}</h3>
          <span>Estadia 7 noites hotel + Vooo</span><br />
-         <span className='label'>*preço por passageiro</span>
+         <span className=''>*preço por passageiro</span>
        </div> 
 
-        <Button>Entra em contato</Button>
-        
-      </div>
-
-    </PackagesSection>
-    <PackagesSection>
-      <div>
-        <img src={sale2?.image} alt="" />
-      </div>
-      <div className='ContainerText'>
-       <div>
-         <p>
-          {sale2?.details}
-         </p>
-         <h2>{sale2?.title}</h2>
-         <h3><span className='spanPrice'>Desde </span>R$: {sale2?.price}</h3>
-         <span>Estadia 7 noites hotel + Vooo</span><br />
-         <span className='label'>*preço por passageiro</span>
-       </div> 
-
-        <Button>Entra em contato</Button>
+        <Button>Entre em contato</Button>
         
       </div>
 

@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const ContainerImage =styled.div`
 width:100%;
 height: 350px;
-margin: 0;
+
 background-image:  url('../../../images/pacotesImg2.jpg');
 background-repeat: no-repeat;
 background-repeat: no-repeat;
@@ -19,75 +19,35 @@ export const Title = styled.h1`
     
     text-align: center;
     font-size: 4rem;
-    font-size: 4rem;
-    font-weight: 400;
     color: ${p=>p.theme.colors.blue700};
-    
+    border-bottom: 2px solid ${p=>p.theme.colors.yellow300}; 
 
 `
 
  export const PackagesSection = styled.section`
    
     border-bottom: 2px solid ${p=>p.theme.colors.yellow300}; 
-    max-width: 1200px;
-    margin: 1rem auto;
-    padding: 2rem 2rem;
+    max-width: 1320px;
+    margin: 3rem auto;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #F7F7F7 ;
-    border-radius: 10px;
 
     img{
-       max-width: 600px;
+       max-width: 700px;
        height: 400px;
        border-radius: 15px;
     }
     .ContainerText{
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: column;
-      
        max-width: 500px;
-       padding: 1rem;
+       height: 100%;
        margin: 0;
-       color: ${p => p.theme.colors.blue700};
-
-       h2{
-        margin-top: 10px;
-        font-size: 2rem;
-        font-weight: 900;
-        
-        
-       }
-       h3{
-         margin-top: 10px;
-         font-weight: 700;
-         margin-bottom: 10px;
-       }
-       p{
-         font-weight: 400;
-       }
-       
-      .label{
-       font-size: 0.7rem;
-
-      }
-       
-    
-       
+       align-items: center;
     }
-    .spanPrice{
-       font-size: 0.9rem;
-       margin-right: 5px;
-       color: ${p => p.theme.colors.yellow300};
-       font-weight: 900;
-      }
-    
  `
  export const Button = styled.button`
- margin-top: 2rem;
- 
+
  height: 4rem;
  border: none;
  border-radius: 10px;
@@ -95,7 +55,7 @@ export const Title = styled.h1`
  color:${p=>p.theme.colors.blue700};
  font-weight: 700;
  background: ${p=>p.theme.colors.yellow300};
-
+ margin: 1rem 4rem;
  transition: 0.4s;
  &:hover{
      filter: brightness(0.8);

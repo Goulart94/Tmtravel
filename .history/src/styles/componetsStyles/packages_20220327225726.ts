@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const ContainerImage =styled.div`
 width:100%;
 height: 350px;
-margin: 0;
+position: absolute;
 background-image:  url('../../../images/pacotesImg2.jpg');
 background-repeat: no-repeat;
 background-repeat: no-repeat;
@@ -13,14 +13,13 @@ background-size: cover;
 transform: 1);
 background-position: 5% -16%;
 border-bottom: 1px solid ${p=> p.theme.colors.yellow300};
+
 `
 export const Title = styled.h1`
 
     
     text-align: center;
     font-size: 4rem;
-    font-size: 4rem;
-    font-weight: 400;
     color: ${p=>p.theme.colors.blue700};
     
 
@@ -29,7 +28,7 @@ export const Title = styled.h1`
  export const PackagesSection = styled.section`
    
     border-bottom: 2px solid ${p=>p.theme.colors.yellow300}; 
-    max-width: 1200px;
+    max-width: 1320px;
     margin: 1rem auto;
     padding: 2rem 2rem;
     display: flex;
@@ -39,7 +38,7 @@ export const Title = styled.h1`
     border-radius: 10px;
 
     img{
-       max-width: 600px;
+       max-width: 700px;
        height: 400px;
        border-radius: 15px;
     }

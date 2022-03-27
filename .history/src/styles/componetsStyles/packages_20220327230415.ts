@@ -29,7 +29,7 @@ export const Title = styled.h1`
  export const PackagesSection = styled.section`
    
     border-bottom: 2px solid ${p=>p.theme.colors.yellow300}; 
-    max-width: 1200px;
+    max-width: 1320px;
     margin: 1rem auto;
     padding: 2rem 2rem;
     display: flex;
@@ -39,7 +39,7 @@ export const Title = styled.h1`
     border-radius: 10px;
 
     img{
-       max-width: 600px;
+       max-width: 700px;
        height: 400px;
        border-radius: 15px;
     }

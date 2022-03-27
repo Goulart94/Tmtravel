@@ -17,7 +17,6 @@ export const Title = styled.h1`
     margin-top: 20px;
     text-align: center;
     font-size: 4rem;
-    font-weight: 400;
     color: ${p=>p.theme.colors.blue700};
 
 `

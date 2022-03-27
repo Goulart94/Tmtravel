@@ -3,7 +3,7 @@ import { GetStaticProps } from 'next';
 import { RichText } from 'prismic-dom';
 import React from 'react';
 import { getPlismicClient } from '../../../services/prismic';
-import { ContainerImage, PackagesSection, Title, Button} from '../../styles/componetsStyles/packages';
+import { ContainerImage, PackagesSection, Title } from '../../styles/componetsStyles/packages';
 import Prismic from "@prismicio/client";
 
 interface ContentSale{
@@ -11,7 +11,6 @@ interface ContentSale{
   title: string;
   price: string;
   image: string;
-  details: string;
 }
 
 interface ContentOne{
@@ -33,7 +32,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
 
   return (
     <>
-    <ContainerImage></ContainerImage>
+    <ContainerImage/>
     <Title>Pacotes</Title>
     
     <PackagesSection>
@@ -41,38 +40,12 @@ export default function Packages( {contentSaleOne} : ContentOne) {
         <img src={sale1?.image} alt="" />
       </div>
       <div className='ContainerText'>
-       <div>
-         <p>
-          {sale1?.details}
-         </p>
-         <h2>{sale1?.title}</h2>
-         <h3><span className='spanPrice'>Desde </span>R$: {sale1?.price}</h3>
-         <span>Estadia 7 noites hotel + Vooo</span><br />
-         <span className='label'>*preço por passageiro</span>
-       </div> 
-
-        <Button>Entra em contato</Button>
-        
-      </div>
-
-    </PackagesSection>
-    <PackagesSection>
-      <div>
-        <img src={sale2?.image} alt="" />
-      </div>
-      <div className='ContainerText'>
-       <div>
-         <p>
-          {sale2?.details}
-         </p>
-         <h2>{sale2?.title}</h2>
-         <h3><span className='spanPrice'>Desde </span>R$: {sale2?.price}</h3>
-         <span>Estadia 7 noites hotel + Vooo</span><br />
-         <span className='label'>*preço por passageiro</span>
-       </div> 
-
-        <Button>Entra em contato</Button>
-        
+        <p>
+        A Índia é um extenso país do Sul da Ásia com geografia diversificada, incluindo desde os picos do Himalaia até a costa do Oceano Índico, e uma história que remonta a cinco milênios. No norte, alguns dos monumentos do império mogol são o complexo do Forte Vermelho, em Délhi, e a imponente mesquita Jama Masjid, bem como o clássico mausoléu Taj Mahal, em Agra. Os peregrinos tomam banho no Ganges, em Varanasi. Rishikesh é um centro de ioga que serve de base para trilhas no Himalaia.
+        padding: 0 2rem 5px;
+        A Índia é um extenso país do Sul da Ásia com geografia diversificada, incluindo desde os picos do Himalaia até a costa do Oceano Índico, e uma história que remonta a cinco milênios. No norte, alguns dos monumentos do império mogol são o complexo do Forte Vermelho, em Délhi, e a imponente mesquita Jama Masjid, bem como o clássico mausoléu Taj Mahal, em Agra. Os peregrinos tomam banho no Ganges, em Varanasi. Rishikesh é um centro de ioga que serve de base para trilhas no Himalaia.
+        padding: 0 2rem 5px;
+        </p>
       </div>
 
     </PackagesSection>
@@ -90,7 +63,7 @@ export const getStaticProps : GetStaticProps = async () => {
 
   const response = await prismic.query<any>(
     [Prismic.Predicates.at('document.type','saleone')],{
-      fetch: ['saleone.image','saleone.title', 'saleone.price', 'saleone.details' ]
+      fetch: ['saleone.image','saleone.title', 'saleone.price', ]
     }
 
 
@@ -102,7 +75,6 @@ export const getStaticProps : GetStaticProps = async () => {
         title: RichText.asText(contentSale.data.title) || null,
         price: RichText.asText(contentSale.data.price) || null,
         image: contentSale.data.image.url || null,
-        details: contentSale.data.details || null,
         
       };
     });

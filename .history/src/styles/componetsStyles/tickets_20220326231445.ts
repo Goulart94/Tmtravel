@@ -17,14 +17,11 @@ export const Title = styled.h1`
     margin-top: 20px;
     text-align: center;
     font-size: 4rem;
-    font-weight: 400;
     color: ${p=>p.theme.colors.blue700};
 
 `
 
 export const ContainerTickets = styled.div`
-    
-    
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 2rem;
