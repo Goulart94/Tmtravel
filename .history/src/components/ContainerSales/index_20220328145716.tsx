@@ -40,23 +40,23 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
            <img src={sale1?.image} alt="" />
           </div>
           <span className='title'>{sale1?.title}</span>
-          <span className='price'>Desde  <span>R$: {sale1?.price}</span></span>
+          <span className='price'>Desde R$: <span>{sale1?.price}</span></span>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
           <div>
            <img src={sale2?.image} alt="" />
           </div>
-          <span className='title'>{sale2?.title}</span>
-          <span className='price'>Desde <span>R$: {sale2?.price}</span></span>
+          <h1>{sale2?.title}</h1>
+          <h3>Desde R$: {sale2?.price}</h3>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
           <div>
            <img src={sale3?.image} alt="" />
           </div>
-          <span className='title'>{sale3?.title}</span>
-          <span className='price'>Desde <span>R$: {sale3?.price}</span></span>       
+          <h1>{sale3?.title} </h1>
+          <h3>Desde R$: {sale3?.price} </h3>        
           <Button>Ver oferta</Button>
           
        </ContentSale>
@@ -70,24 +70,24 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
           <div>
            <img src={sale4?.image} alt="" />
           </div>
-          <span className='title'>{sale4?.title}</span>
-          <span className='price'>Desde <span>R$: {sale4?.price}</span></span>
+          <h1>{sale4?.title}</h1>
+          <h3>Desde R$: {sale4?.price}</h3>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
           <div>
            <img src={sale5?.image} alt="" />
           </div>
-          <span className='title'>{sale5?.title}</span>
-          <span className='price'>Desde <span>R$: {sale5?.price}</span></span>
+          <h1>{sale5?.title}</h1>
+          <h3>Desde R$: {sale5?.price}</h3>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
           <div>
            <img src={sale6?.image} alt="" />
           </div>
-          <span className='title'>{sale6?.title}</span>
-          <span className='price'>Desde <span>R$: {sale6?.price}</span></span>        
+          <h1>{sale6?.title}</h1>
+          <h3>Desde R$: {sale6?.price}</h3>        
           <Button>Ver oferta</Button>
           
        </ContentSale>

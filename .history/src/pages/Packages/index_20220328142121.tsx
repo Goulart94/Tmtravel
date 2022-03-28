@@ -171,7 +171,7 @@ export const getStaticProps : GetStaticProps = async () => {
 
   const response = await prismic.query<any>(
     [Prismic.Predicates.at('document.type','saleone')],{
-      fetch: ['saleone.image','saleone.title', 'saleone.price', 'saleone.details', 'saleone.datailstravel', ]
+      fetch: ['saleone.image','saleone.title', 'saleone.price', 'saleone.details', 'saleone.datailsTravel' ]
     }
 
 
@@ -184,7 +184,7 @@ export const getStaticProps : GetStaticProps = async () => {
         price: RichText.asText(contentSale.data.price) || null,
         image: contentSale.data.image.url || null,
         details: contentSale.data.details || null,
-        datailsTravel: RichText.asText(contentSale.data.datailstravel)  || null,
+        datailsTravel: contentSale.data.datailsTravel || null,
         
       };
     });

@@ -5,7 +5,7 @@ import styled, { keyframes } from "styled-components";
 export const MenuDiv = styled.div`
 
 width:100%;
-height: 6.5rem;
+height: 7rem;
 display:flex;
 position: fixed;
 border-bottom: solid 3px ${p=>p.theme.colors.yellow300};
@@ -65,7 +65,7 @@ div{
     
 }
 .configImg{
-    width: 110px;
+    width: 100px;
     position:relative;
     top: 15px;
     right: 73px;

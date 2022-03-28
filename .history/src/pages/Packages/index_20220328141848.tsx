@@ -12,7 +12,7 @@ interface ContentSale{
   price: string;
   image: string;
   details: string;
-  datailsTravel: string;
+  detailTravel: string;
 }
 
 interface ContentOne{
@@ -48,7 +48,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          </p>
          <h2>{sale1?.title}</h2>
          <h3><span className='spanPrice'>Desde </span>R$: {sale1?.price}</h3>
-         <span>{sale1?.datailsTravel}</span><br />
+         <span>{sale1?.detailTravel}</span><br />
          <span className='label'>*preço por passageiro</span>
        </div> 
 
@@ -171,7 +171,7 @@ export const getStaticProps : GetStaticProps = async () => {
 
   const response = await prismic.query<any>(
     [Prismic.Predicates.at('document.type','saleone')],{
-      fetch: ['saleone.image','saleone.title', 'saleone.price', 'saleone.details', 'saleone.datailstravel', ]
+      fetch: ['saleone.image','saleone.title', 'saleone.price', 'saleone.details', 'saleone.datailsTravel' ]
     }
 
 
@@ -184,7 +184,7 @@ export const getStaticProps : GetStaticProps = async () => {
         price: RichText.asText(contentSale.data.price) || null,
         image: contentSale.data.image.url || null,
         details: contentSale.data.details || null,
-        datailsTravel: RichText.asText(contentSale.data.datailstravel)  || null,
+        detailTravel: contentSale.data.details || null,
         
       };
     });

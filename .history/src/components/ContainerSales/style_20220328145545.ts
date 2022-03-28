@@ -35,7 +35,7 @@ display: flex;
 flex-direction: column;
 width:400px;
 height: 450px;
-background: #F7F7F7;
+background: ${p=>p.theme.colors.gray100};
 border-radius: 15px;
 margin:none;
 transition: 0.2S;
@@ -68,9 +68,8 @@ div{
 .title{
     padding-left: 1rem;
     padding-top: 1rem;
-    font-size: 2rem;
-    color: ${p=>p.theme.colors.blue700};
-    font-weight: 400;
+    font-size: 1.8rem;
+    color: ${p=>p.theme.colors.gray700};
 }
 
   
@@ -80,12 +79,7 @@ div{
         padding-left: 1rem;
         font-size: 1.2rem;
         color: ${p=>p.theme.colors.gray700};
-        font-size: 0.9rem;
-
-        span{
-            font-size: 2rem;
-            color: ${p=>p.theme.colors.blue700};
-        }
+        font-size: 1rem;
     }
 
     
@@ -100,7 +94,7 @@ border: none;
 border-radius: 10px;
 color:${p=>p.theme.colors.blue700};
 font-size: 1.5rem;
-font-weight: 400;
+font-weight: 700;
 background: ${p=>p.theme.colors.yellow300};
 margin: 1rem 4rem;
 transition: 0.4s;

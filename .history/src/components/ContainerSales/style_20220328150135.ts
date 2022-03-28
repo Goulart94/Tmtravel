@@ -35,7 +35,7 @@ display: flex;
 flex-direction: column;
 width:400px;
 height: 450px;
-background: #F7F7F7;
+background: ${p=>p.theme.colors.gray100};
 border-radius: 15px;
 margin:none;
 transition: 0.2S;

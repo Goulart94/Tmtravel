@@ -184,7 +184,7 @@ export const getStaticProps : GetStaticProps = async () => {
         price: RichText.asText(contentSale.data.price) || null,
         image: contentSale.data.image.url || null,
         details: contentSale.data.details || null,
-        datailsTravel: RichText.asText(contentSale.data.datailstravel)  || null,
+        datailsTravel: RichText.asText(contentSale.data.datailstravel) || null || null,
         
       };
     });

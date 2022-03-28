@@ -65,7 +65,7 @@ div{
     
 }
 .configImg{
-    width: 110px;
+    width: 100px;
     position:relative;
     top: 15px;
     right: 73px;

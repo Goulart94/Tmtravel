@@ -49,9 +49,9 @@ return (
                <nav>
                   <Link href='./'><a className={asPath === '/' ? 'active' : ''} ><ImHome3 fontSize={'1.3rem'}/> Home</a></Link>
                   <Link href="./Tickets"><a className={asPath === '/Tickets' ? 'active' : ''}><ImAirplane fontSize={'1rem'}/> Passagens</a></Link>
-                  <Link href='./Packages'><a className={asPath === '/Packages' ? 'active' : ''}><MdAirlineSeatIndividualSuite className='iconBed'/> Pacotes</a></Link>
-                  <Link href='./Insurance'><a className={asPath === '/Insurance' ? 'active' : ''}><FaSuitcase fontSize={'1.1rem'}/> Seguros</a></Link>
-                  <Link href='./Contact'><a className={asPath === '/Contact' ? 'active' : ''}><ImPhone fontSize={'1.2rem'}/> Contatos</a></Link>
+                  <Link href='./Packages'><a><MdAirlineSeatIndividualSuite className='iconBed'/> Pacotes</a></Link>
+                  <Link href='./Insurance'><a ><FaSuitcase fontSize={'1.1rem'}/> Seguros</a></Link>
+                  <Link href='./Contact'><a><ImPhone fontSize={'1.2rem'}/> Contatos</a></Link>
                </nav>
             </ContentNav>
 

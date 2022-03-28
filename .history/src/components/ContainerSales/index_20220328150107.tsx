@@ -40,7 +40,7 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
            <img src={sale1?.image} alt="" />
           </div>
           <span className='title'>{sale1?.title}</span>
-          <span className='price'>Desde  <span>R$: {sale1?.price}</span></span>
+          <span className='price'>Desde R$: <span>{sale1?.price}</span></span>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
@@ -48,7 +48,7 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
            <img src={sale2?.image} alt="" />
           </div>
           <span className='title'>{sale2?.title}</span>
-          <span className='price'>Desde <span>R$: {sale2?.price}</span></span>
+          <span className='price'>Desde R$: <span>{sale2?.price}</span></span>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
@@ -56,7 +56,7 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
            <img src={sale3?.image} alt="" />
           </div>
           <span className='title'>{sale3?.title}</span>
-          <span className='price'>Desde <span>R$: {sale3?.price}</span></span>       
+          <span className='price'>Desde R$: <span>{sale3?.price}</span></span>       
           <Button>Ver oferta</Button>
           
        </ContentSale>
@@ -71,7 +71,7 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
            <img src={sale4?.image} alt="" />
           </div>
           <span className='title'>{sale4?.title}</span>
-          <span className='price'>Desde <span>R$: {sale4?.price}</span></span>
+          <span className='price'>Desde R$: <span>{sale4?.price}</span></span>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
@@ -79,7 +79,7 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
            <img src={sale5?.image} alt="" />
           </div>
           <span className='title'>{sale5?.title}</span>
-          <span className='price'>Desde <span>R$: {sale5?.price}</span></span>
+          <span className='price'>Desde R$: <span>{sale5?.price}</span></span>
           <Button>Ver oferta</Button>
        </ContentSale>
        <ContentSale>
@@ -87,7 +87,7 @@ export default function ContainerSales( {contentSaleOne} : ContentOne) {
            <img src={sale6?.image} alt="" />
           </div>
           <span className='title'>{sale6?.title}</span>
-          <span className='price'>Desde <span>R$: {sale6?.price}</span></span>        
+          <span className='price'>Desde R$: <span>{sale6?.price}</span></span>        
           <Button>Ver oferta</Button>
           
        </ContentSale>
