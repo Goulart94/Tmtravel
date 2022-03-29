@@ -105,7 +105,6 @@ export const Title = styled.h1`
 
  transition: 0.4s;
  &:hover{
-  cursor: pointer;
      filter: brightness(0.8);
      
  }

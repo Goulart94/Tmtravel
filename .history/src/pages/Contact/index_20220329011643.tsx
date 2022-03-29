@@ -9,22 +9,22 @@ export default function Contact() {
        <ContainerImage/>
        <AreaText>
          <ContainerText>
-           <h1> <span>#</span>Você sonha, nos realizamos.</h1>
+           <h1> <span>#</span>Precisa dos meus serviços ?</h1>
            <ul>
              <li>
-               <RiMailSendLine className='icon'/> Email : tmtravel@outlook.com.br
+               <RiMailSendLine className='icon'/> Email : Maycon_pbi@hotmail.com
              </li>
              <li>
-               <RiPhoneFill className='icon'/>Telefone: +351 936353458
+               <RiPhoneFill className='icon'/>Telefone: 936353484
              </li>
            </ul>
            <p>ou</p>
            <section>
              <BsWhatsapp  className='iconSection'
-              onClick={()=> window.open( "https://wa.me/351936353458")}>
+              onClick={()=> window.open( "https://wa.me/351936353484")}>
             </BsWhatsapp>
             <BsInstagram className='iconSection'
-            onClick={()=> window.open( "https://www.instagram.com/tmt.ravel/")} >
+            onClick={()=> window.open( "https://wa.me/351936353484")} >
             </BsInstagram>
            </section>
          </ContainerText>
@@ -44,9 +44,9 @@ export default function Contact() {
 
            <label>Mensagen:</label>
            <BoxMensange type={"text"} placeholder="Digite sua mensagen"></BoxMensange>
-           
+           <div>
              <SubmitButton>Enviar</SubmitButton>
-         
+          </div>
            
            
           </Form>

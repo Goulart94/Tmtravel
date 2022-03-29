@@ -108,7 +108,6 @@ background: ${p=>p.theme.colors.yellow300};
 margin: 1rem 4rem;
 transition: 0.4s;
 &:hover{
-    cursor: pointer;
     filter: brightness(0.8);
     
 }

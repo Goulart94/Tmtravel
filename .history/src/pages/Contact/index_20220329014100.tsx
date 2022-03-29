@@ -9,7 +9,7 @@ export default function Contact() {
        <ContainerImage/>
        <AreaText>
          <ContainerText>
-           <h1> <span>#</span>Você sonha, nos realizamos.</h1>
+           <h1> <span>#</span>Viajar é preciso</h1>
            <ul>
              <li>
                <RiMailSendLine className='icon'/> Email : tmtravel@outlook.com.br

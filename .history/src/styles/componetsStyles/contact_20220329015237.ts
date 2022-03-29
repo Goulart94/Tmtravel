@@ -188,7 +188,7 @@ color:${p=>p.theme.colors.blue700};
 font-size: 1.2rem;
 font-weight: 400;
 background: ${p=>p.theme.colors.yellow300};
-margin: 1rem 0.5rem;
+
 transition: 0.4s;
 &:hover{
     cursor: pointer;

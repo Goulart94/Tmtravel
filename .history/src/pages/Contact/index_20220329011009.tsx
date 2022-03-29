@@ -1,7 +1,7 @@
 import React from 'react'
 import { AreaText, BoxMensange, ContainerImage, ContainerText, DadosContact, Form, SubmitButton } from '../../styles/componetsStyles/contact';
 import { RiMailSendLine, RiPhoneFill } from "react-icons/ri";
-import { BsWhatsapp,BsInstagram} from "react-icons/bs";
+import { BsWhatsapp, BsLinkedin, BsGithub } from "react-icons/bs";
 
 export default function Contact() {
   return (
@@ -9,23 +9,26 @@ export default function Contact() {
        <ContainerImage/>
        <AreaText>
          <ContainerText>
-           <h1> <span>#</span>Você sonha, nos realizamos.</h1>
+           <h1> <span>#</span>Precisa dos meus serviços ?</h1>
            <ul>
              <li>
-               <RiMailSendLine className='icon'/> Email : tmtravel@outlook.com.br
+               <RiMailSendLine className='icon'/> Email : Maycon_pbi@hotmail.com
              </li>
              <li>
-               <RiPhoneFill className='icon'/>Telefone: +351 936353458
+               <RiPhoneFill className='icon'/>Telefone: 936353484
              </li>
            </ul>
            <p>ou</p>
            <section>
              <BsWhatsapp  className='iconSection'
-              onClick={()=> window.open( "https://wa.me/351936353458")}>
+              onClick={()=> window.open( "https://wa.me/351936353484")}>
             </BsWhatsapp>
-            <BsInstagram className='iconSection'
-            onClick={()=> window.open( "https://www.instagram.com/tmt.ravel/")} >
-            </BsInstagram>
+             <BsLinkedin className='iconSection'
+              onClick={()=> window.open( "https://www.linkedin.com/in/maycon-goulart-329477230/")}> 
+             </BsLinkedin>
+             <BsGithub className='iconSection'
+             onClick={()=> window.open( "https://github.com/Goulart94")}>
+             </BsGithub>
            </section>
          </ContainerText>
         
@@ -44,9 +47,9 @@ export default function Contact() {
 
            <label>Mensagen:</label>
            <BoxMensange type={"text"} placeholder="Digite sua mensagen"></BoxMensange>
-           
+           <div>
              <SubmitButton>Enviar</SubmitButton>
-         
+          </div>
            
            
           </Form>

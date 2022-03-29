@@ -186,12 +186,11 @@ border: none;
 border-radius: 10px;
 color:${p=>p.theme.colors.blue700};
 font-size: 1.2rem;
-font-weight: 400;
+font-weight: 600;
 background: ${p=>p.theme.colors.yellow300};
-margin: 1rem 0.5rem;
+margin: 1rem 4rem;
 transition: 0.4s;
 &:hover{
-    cursor: pointer;
     filter: brightness(0.8);
     
 }

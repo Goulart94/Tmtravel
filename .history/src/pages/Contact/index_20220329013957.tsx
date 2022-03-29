@@ -9,13 +9,13 @@ export default function Contact() {
        <ContainerImage/>
        <AreaText>
          <ContainerText>
-           <h1> <span>#</span>Você sonha, nos realizamos.</h1>
+           <h1> <span>#</span>Precisa dos meus serviços ?</h1>
            <ul>
              <li>
                <RiMailSendLine className='icon'/> Email : tmtravel@outlook.com.br
              </li>
              <li>
-               <RiPhoneFill className='icon'/>Telefone: +351 936353458
+               <RiPhoneFill className='icon'/>Telefone: +352 936353458
              </li>
            </ul>
            <p>ou</p>

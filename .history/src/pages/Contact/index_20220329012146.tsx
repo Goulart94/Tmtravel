@@ -9,13 +9,13 @@ export default function Contact() {
        <ContainerImage/>
        <AreaText>
          <ContainerText>
-           <h1> <span>#</span>Você sonha, nos realizamos.</h1>
+           <h1> <span>#</span>Precisa dos meus serviços ?</h1>
            <ul>
              <li>
-               <RiMailSendLine className='icon'/> Email : tmtravel@outlook.com.br
+               <RiMailSendLine className='icon'/> Email : Maycon_pbi@hotmail.com
              </li>
              <li>
-               <RiPhoneFill className='icon'/>Telefone: +351 936353458
+               <RiPhoneFill className='icon'/>Telefone: 936353484
              </li>
            </ul>
            <p>ou</p>
@@ -44,9 +44,9 @@ export default function Contact() {
 
            <label>Mensagen:</label>
            <BoxMensange type={"text"} placeholder="Digite sua mensagen"></BoxMensange>
-           
+           <div>
              <SubmitButton>Enviar</SubmitButton>
-         
+          </div>
            
            
           </Form>

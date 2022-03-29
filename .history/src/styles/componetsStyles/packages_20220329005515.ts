@@ -38,17 +38,15 @@ export const Title = styled.h1`
     background: #F7F7F7 ;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
-    transition: 0.3s;
      
     &:hover{
     box-shadow: 0px 0px 10px rgb(31, 17, 100);
-    }
+}
 
     img{
        max-width: 600px;
        height: 400px;
        border-radius: 15px;
-       border: 2px solid ${p => p.theme.colors.yellow300};
     }
     .ContainerText{
        display: flex;
@@ -105,7 +103,6 @@ export const Title = styled.h1`
 
  transition: 0.4s;
  &:hover{
-  cursor: pointer;
      filter: brightness(0.8);
      
  }

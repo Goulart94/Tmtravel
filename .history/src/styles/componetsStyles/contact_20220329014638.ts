@@ -64,9 +64,8 @@ export const ContainerText = styled.main`
     }
     p{
 
-        width:46%;
-        text-align: center;
-        
+        width:100%;
+        margin-left: 4.5rem;
         padding-top: 20px;
         padding-bottom: 10px;
         font-size: 1.2rem;
@@ -75,7 +74,7 @@ export const ContainerText = styled.main`
         opacity: 0.8;
     }
     section{
-        width: 50%;
+        width: 100%;
         text-align:center;
         padding: 1rem;
         
@@ -185,13 +184,12 @@ height: 4rem;
 border: none;
 border-radius: 10px;
 color:${p=>p.theme.colors.blue700};
-font-size: 1.2rem;
+font-size: 1.5rem;
 font-weight: 400;
 background: ${p=>p.theme.colors.yellow300};
-margin: 1rem 0.5rem;
+margin: 1rem 4rem;
 transition: 0.4s;
 &:hover{
-    cursor: pointer;
     filter: brightness(0.8);
     
 }

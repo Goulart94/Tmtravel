@@ -38,13 +38,13 @@ height: 450px;
 background: #F7F7F7;
 border-radius: 15px;
 margin:none;
-transition: 0.3S;
+transition: 0.2S;
 box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
      
   
         &:hover{
-            cursor:pointer;
-            box-shadow: 0px 0px 10px rgb(31, 17, 100);
+          cursor:pointer;
+          box-shadow: 0px 0px 10px rgb(31, 17, 100);
            
             img{
                 
@@ -108,7 +108,6 @@ background: ${p=>p.theme.colors.yellow300};
 margin: 1rem 4rem;
 transition: 0.4s;
 &:hover{
-    cursor: pointer;
     filter: brightness(0.8);
     
 }
