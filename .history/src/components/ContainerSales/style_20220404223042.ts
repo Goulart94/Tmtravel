@@ -50,10 +50,10 @@ box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 @media (min-width: 1250px) and (max-width: 1400px){
     width: 350px;
 }
-@media (min-width: 1090px) and (max-width: 1250px){
+@media (min-width: 1080px) and (max-width: 1250px){
     width: 300px;
 }
-@media (min-width: 620px) and (max-width: 1090px){
+@media (min-width: 620px) and (max-width: 1080px){
     width: 600px;
 }
 

@@ -72,11 +72,11 @@ export default function Tickets() {
             <h2> Euro e Dolar hoje</h2> 
             <div className='contentCoin'>
               <div className='Coin'><label  > 1 Dólar</label></div>
-              <div className='currencyValue' ><span >R$:{currencyValue?.USD.bid}</span></div>
+              <div className='currencyValue' ><span >R$:{currencyValue?.USDBRL}</span></div>
             </div>
             <div className='contentCoin'>
               <label className='Coin' > 1 Euro</label>
-              <span className='currencyValue' >R$:{currencyValue?.EUR.bid}</span>
+              <span className='currencyValue' >R$:{currencyValue?.EURBRL}</span>
             </div>
           </div> 
           <div className='content'>

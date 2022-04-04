@@ -21,7 +21,7 @@ align-items: center;
 flex-wrap: nowrap;
 padding: 0rem 5rem 0rem 5rem;
 
-@media (max-width: 1090px){
+@media (min-width: 999px){
     
     flex-direction: column;
      
@@ -50,11 +50,13 @@ box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 @media (min-width: 1250px) and (max-width: 1400px){
     width: 350px;
 }
-@media (min-width: 1090px) and (max-width: 1250px){
+@media (min-width: 1000px) and (max-width: 1249px){
     width: 300px;
 }
-@media (min-width: 620px) and (max-width: 1090px){
-    width: 600px;
+@media (min-width: 999px){
+    
+    
+    width:400px;  
 }
 
 

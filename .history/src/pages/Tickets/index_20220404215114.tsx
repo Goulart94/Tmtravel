@@ -7,7 +7,7 @@ import { Value } from 'sass';
 
 interface currencyProps 
 {
-  EUR:
+  EURBRL:
   {code:string;
   codein:string;
   name:string;
@@ -20,7 +20,7 @@ interface currencyProps
   timestamp:string;
   create_date:string;
 }
-  USD:
+  USDBRL:
   {code:string;
     codein:string;
     name:string;
@@ -56,7 +56,7 @@ export default function Tickets() {
     loadCoin()
   },[]);
 
-   console.log(currencyValue?.EUR);
+   console.log(currencyValue);
 
    
   return (
@@ -72,11 +72,11 @@ export default function Tickets() {
             <h2> Euro e Dolar hoje</h2> 
             <div className='contentCoin'>
               <div className='Coin'><label  > 1 Dólar</label></div>
-              <div className='currencyValue' ><span >R$:{currencyValue?.USD.bid}</span></div>
+              <div className='currencyValue' ><span >R$:{currencyValue?.USDBRL}</span></div>
             </div>
             <div className='contentCoin'>
               <label className='Coin' > 1 Euro</label>
-              <span className='currencyValue' >R$:{currencyValue?.EUR.bid}</span>
+              <span className='currencyValue' >R$:{currencyValue?.EURBRL}</span>
             </div>
           </div> 
           <div className='content'>
