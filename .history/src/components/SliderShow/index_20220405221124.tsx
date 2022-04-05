@@ -19,6 +19,7 @@ export const SlederShow = () => (
            
     </SliderOne> 
   </Carousel.Item>
+  
 </Carousel>
 </Container>
 );

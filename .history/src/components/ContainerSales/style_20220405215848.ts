@@ -56,8 +56,8 @@ box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 @media (min-width: 620px) and (max-width: 1090px){
     width: 600px;
 }
-@media(max-width: 420px){
-    width: 320px;
+@media(max-width: 1090px){
+    width: 250px;
 }
 
 

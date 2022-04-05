@@ -16,7 +16,7 @@ background-repeat: no-repeat;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 10% 160%;
-
+border-bottom: 2px solid ${p => p.theme.colors.yellow300};
 
 
 height: 800px;
@@ -25,31 +25,26 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 flex-wrap: nowrap;
-padding: 1rem 3rem;
+padding: 1rem 5rem;
 
 @media (max-width: 420px){
       background-size: cover;
       background-position: 45% 40%;
+      height: 400px;
       padding: 1rem 1rem;
 
 
 }
-@media(max-width: 1000px){
+@media (max-width: 1000px){
       background-size: cover;
       background-position: 45% 40%;
       height: 400px;
-      padding: 1rem 1.8rem;
+      padding: 1rem 2rem;
 
 
 }
 
-@media (min-width: 100px)and(max-width: 1300px){
-      background-size: cover;
-      background-position: 45% 200%;
-      padding: 1rem 1.8rem;
 
-
-}
   
 `
 
@@ -95,7 +90,7 @@ background: rgba(0, 252, 255, 0.1);
 max-width: 300px;
 max-height: 250px;
 text-align: center;
-@media (max-width: 780px){
+@media (max-width: 720px){
       max-width: 120px;
       
       font: 700 1.1rem  "Caveat", cursive;
@@ -118,7 +113,7 @@ max-width: 300px;
 max-height: 250px;
 height: auto;
 text-align: center;
-@media (max-width: 780px){
+@media (max-width: 720px){
       max-width: 120px;
       font: 700 1.1rem  "Caveat", cursive;
 

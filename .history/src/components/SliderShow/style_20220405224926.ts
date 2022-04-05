@@ -34,7 +34,7 @@ padding: 1rem 3rem;
 
 
 }
-@media(max-width: 1000px){
+@media (max-width: 1000px){
       background-size: cover;
       background-position: 45% 40%;
       height: 400px;
@@ -43,9 +43,9 @@ padding: 1rem 3rem;
 
 }
 
-@media (min-width: 100px)and(max-width: 1300px){
+@media (max-width: 1300px){
       background-size: cover;
-      background-position: 45% 200%;
+      background-position: 45% 40%;
       padding: 1rem 1.8rem;
 
 

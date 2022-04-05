@@ -57,7 +57,7 @@ box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
     width: 600px;
 }
 @media(max-width: 420px){
-    width: 320px;
+    width: 300px;
 }
 
 
