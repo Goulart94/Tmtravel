@@ -50,20 +50,17 @@ export const ContainerTickets = styled.div`
  `
 export const ContentTickets = styled.div`
 
-
+max-width: 100%;
 margin: 20px 10px 50px 10px;
 background-color: ${p=>p.theme.colors.yellow300};
 border-radius: 10px;
 box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 transition: 0.3s;
-@media (max-width:420px) {
-    width: 320px;
 
- }
 @media (max-width:780px) { 
   
     margin: 20px;
-    
+    max-width: 317px;
     .details{
     
     

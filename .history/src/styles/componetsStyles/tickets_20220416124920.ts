@@ -56,88 +56,6 @@ background-color: ${p=>p.theme.colors.yellow300};
 border-radius: 10px;
 box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 transition: 0.3s;
-@media (max-width:420px) {
-    width: 320px;
-
- }
-@media (max-width:780px) { 
-  
-    margin: 20px;
-    
-    .details{
-    
-    
-    height: auto;
-    border-bottom: 1px solid ${p=> p.theme.colors.gray300};
-    justify-content: space-between;
-    display: flex;
-    
-    
-
-    .ContentCenter{
-    
-    display: flex;
-    flex-direction: column;
-   
-    max-width: 160px;
-    
-    
-    }
-
-    .airPoint{
- 
-    overflow: hidden;
-    max-width: 90px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-size: 0.75rem;
-    font-weight: 400;
-    padding:0;
-    letter-spacing: 0.03333em;
-    }
-    .suitcase{
-        text-align: center;
-        max-width: 60px;
-    }
-    div{
-        color: ${p => p.theme.colors.gray700};
-        padding: 0.5rem;
-        text-align: center;
-        
-        h2{
-            color: ${p=>p.theme.colors.blue700};
-            font-weight: 700;
-            font-size: 1.2rem;
-        }
-        span{
-            font-size: 0.75rem;
-            font-weight: 400;
-        }
-       .iconSuitCase{
-        position: relative;
-        top: 5px;
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
-        
-       }
-        .iconsAirPlane{
-            position: relative;
-            top: 5px;
-            margin-right: 0.8rem;
-            font-size: 2rem;
-            color: ${p => p.theme.colors.gray700};
-        }
-     }
-  }
-  .ticketPrice{
-    display: flex;
-    flex-direction: column;
-
-  }
-
-}
-
-}
 
 
 
@@ -155,9 +73,6 @@ transition: 0.3s;
     border-radius: 10px;    
     color: ${p => p.theme.colors.gray700};
     padding: 2rem 0.5rem;
-    Button{
-        float: right;
-    }
     div{
         margin-bottom: 10px;
     }
@@ -182,14 +97,13 @@ transition: 0.3s;
 }
 
 
-
-
 &:hover{
     box-shadow: 0px 0px 10px rgb(31, 17, 100);
 }
 
 .ticket{
     display: flex;
+   
     background-color: ${p =>p.theme.colors.yellow300};
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
@@ -202,10 +116,11 @@ transition: 0.3s;
 
 
 .ticketFly{
-    width: 100%;
+    width: auto;
+    
     background: ${p=> p.theme.colors.white100};
     border-radius: 10px;
-    
+    position: relative;
     display: inline-block;
     align-items: center;
   
@@ -215,7 +130,6 @@ transition: 0.3s;
 @media (min-width:1300px){
 
     .ticketPrice{
-
     
     border-left: 2px dashed ${p=> p.theme.colors.gray300};
     max-width: 195px;
@@ -226,7 +140,7 @@ transition: 0.3s;
     
     color: ${p => p.theme.colors.gray700};
     padding: 1rem 0.5rem;
-  
+    
     span{
         font-size: 0.75rem;
         margin-bottom: 20px;  
@@ -242,15 +156,14 @@ transition: 0.3s;
         }
     }
     
-   }
 }
-@media (min-width:780px) { 
-    .details{
+}
+.details{
     
     padding: 0 2rem;
     height: 142px;
     border-bottom: 1px solid ${p=> p.theme.colors.gray300};
-    
+    justify-content: space-between; 
     display: flex;
     flex-wrap: nowrap;
     
@@ -313,7 +226,6 @@ transition: 0.3s;
             color: ${p => p.theme.colors.gray700};
         }
     }
-}
 }
 
 
@@ -405,13 +317,7 @@ div{
 }
 
 @media (max-width:1300px){
-   max-width: 661px;
-   height: auto;
-   margin-top: 20px;
-   
-}
-@media (max-width:780px){
-   max-width: 370px;
+   max-width: 705px;
    height: auto;
    margin-top: 20px;
    

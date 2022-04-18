@@ -56,13 +56,10 @@ background-color: ${p=>p.theme.colors.yellow300};
 border-radius: 10px;
 box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 transition: 0.3s;
-@media (max-width:420px) {
-    width: 320px;
 
- }
 @media (max-width:780px) { 
   
-    margin: 20px;
+    margin: 10px;
     
     .details{
     
@@ -78,8 +75,7 @@ transition: 0.3s;
     
     display: flex;
     flex-direction: column;
-   
-    max-width: 160px;
+    padding: 0.5rem;
     
     
     }
@@ -97,17 +93,15 @@ transition: 0.3s;
     }
     .suitcase{
         text-align: center;
-        max-width: 60px;
+        max-width: 100px;
     }
     div{
         color: ${p => p.theme.colors.gray700};
         padding: 0.5rem;
         text-align: center;
-        
         h2{
             color: ${p=>p.theme.colors.blue700};
             font-weight: 700;
-            font-size: 1.2rem;
         }
         span{
             font-size: 0.75rem;

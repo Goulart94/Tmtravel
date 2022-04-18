@@ -259,7 +259,7 @@ export default function Tickets() {
               <div className='ContentCenter'>
                 <div>
                 <h2 >Rio de Janeiro</h2> 
-                <span>Brasil</span>
+               <span>Brasil</span>
                 </div>
                  <div>
                   <span>4h 10min</span>

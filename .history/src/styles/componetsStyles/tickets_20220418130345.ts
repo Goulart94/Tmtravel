@@ -56,13 +56,10 @@ background-color: ${p=>p.theme.colors.yellow300};
 border-radius: 10px;
 box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 transition: 0.3s;
-@media (max-width:420px) {
-    width: 320px;
 
- }
 @media (max-width:780px) { 
   
-    margin: 20px;
+    margin: 10px;
     
     .details{
     
@@ -77,15 +74,13 @@ transition: 0.3s;
     .ContentCenter{
     
     display: flex;
-    flex-direction: column;
-   
-    max-width: 160px;
-    
-    
+    flex-wrap: wrap;
+    padding: 0.5rem ;
     }
 
     .airPoint{
- 
+    
+
     overflow: hidden;
     max-width: 90px;
     white-space: nowrap;
@@ -97,22 +92,26 @@ transition: 0.3s;
     }
     .suitcase{
         text-align: center;
-        max-width: 60px;
+        max-width: 100px;
     }
     div{
         color: ${p => p.theme.colors.gray700};
-        padding: 0.5rem;
-        text-align: center;
+        padding: 2rem ;
         
+       
         h2{
             color: ${p=>p.theme.colors.blue700};
             font-weight: 700;
-            font-size: 1.2rem;
         }
         span{
             font-size: 0.75rem;
             font-weight: 400;
+            
+            
+            
         }
+        
+
        .iconSuitCase{
         position: relative;
         top: 5px;
@@ -120,6 +119,7 @@ transition: 0.3s;
         font-size: 1.5rem;
         
        }
+
         .iconsAirPlane{
             position: relative;
             top: 5px;
@@ -127,15 +127,12 @@ transition: 0.3s;
             font-size: 2rem;
             color: ${p => p.theme.colors.gray700};
         }
-     }
-  }
-  .ticketPrice{
-    display: flex;
-    flex-direction: column;
-
-  }
-
+    }
 }
+
+    
+
+    }
 
 }
 
@@ -155,9 +152,6 @@ transition: 0.3s;
     border-radius: 10px;    
     color: ${p => p.theme.colors.gray700};
     padding: 2rem 0.5rem;
-    Button{
-        float: right;
-    }
     div{
         margin-bottom: 10px;
     }
@@ -215,7 +209,6 @@ transition: 0.3s;
 @media (min-width:1300px){
 
     .ticketPrice{
-
     
     border-left: 2px dashed ${p=> p.theme.colors.gray300};
     max-width: 195px;
@@ -226,7 +219,7 @@ transition: 0.3s;
     
     color: ${p => p.theme.colors.gray700};
     padding: 1rem 0.5rem;
-  
+    
     span{
         font-size: 0.75rem;
         margin-bottom: 20px;  
@@ -242,7 +235,7 @@ transition: 0.3s;
         }
     }
     
-   }
+}
 }
 @media (min-width:780px) { 
     .details{
@@ -405,13 +398,7 @@ div{
 }
 
 @media (max-width:1300px){
-   max-width: 661px;
-   height: auto;
-   margin-top: 20px;
-   
-}
-@media (max-width:780px){
-   max-width: 370px;
+   max-width: 705px;
    height: auto;
    margin-top: 20px;
    

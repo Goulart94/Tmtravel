@@ -56,8 +56,8 @@ background-color: ${p=>p.theme.colors.yellow300};
 border-radius: 10px;
 box-shadow: 0px 0px 10px rgb(31, 17, 100, 80%);
 transition: 0.3s;
-@media (max-width:420px) {
-    width: 320px;
+@media (max-width:380px) {
+    width: 320;
 
  }
 @media (max-width:780px) { 

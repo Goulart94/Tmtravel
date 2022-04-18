@@ -106,16 +106,12 @@ export default function Tickets() {
               <div className='ContentCenter'>
                 <div>
                 <h2 >Rio de Janeiro</h2> 
-                <span>Brasil</span>
+                <div className='airPoint'><span>Brasil</span></div>
                 </div>
-                 <div>
-                  <span>4h 10min</span>
-                  <hr />
-                  <span>voo direto</span>
-                </div>
+                
                 <div>
                 <h2>Porto</h2> 
-               <span >Portugal</span>
+                <div className='airPoint'><span >Portugal</span></div>
                 </div>
               </div>
               <div className='suitcase'>
@@ -133,7 +129,7 @@ export default function Tickets() {
               <div className='ContentCenter'>
                 <div>
                 <h2 >Porto</h2> 
-               <span>Portugal</span>
+                <div className='airPoint'><span>Portugal</span></div>
                 </div>
                  <div>
                   <span>4h 10min</span>
@@ -142,7 +138,7 @@ export default function Tickets() {
                 </div>
                 <div>
                 <h2>Rio de janeiro</h2> 
-               <span>Brasil</span>
+                <div className='airPoint'><span>Brasil</span></div>
                 </div>
               </div>
               <div className='suitcase'>
@@ -183,7 +179,7 @@ export default function Tickets() {
               <div className='ContentCenter'>
                 <div>
                 <h2 >São paulo</h2> 
-                <span>Brasil</span>
+                <div className='airPoint'><span>Brasil</span></div>
                 </div>
                  <div>
                   <span>4h 10min</span>
@@ -192,7 +188,7 @@ export default function Tickets() {
                 </div>
                 <div>
                 <h2>Barcelona</h2> 
-                <span >Espanha</span>
+                <div className='airPoint'><span >Espanha</span></div>
                 </div>
               </div>
               <div className='suitcase'>
@@ -210,7 +206,7 @@ export default function Tickets() {
               <div className='ContentCenter'>
                 <div>
                 <h2 >Barcelona</h2> 
-               <span>Espanha</span>
+                <div className='airPoint'><span>Espanha</span></div>
                 </div>
                  <div>
                   <span>4h 10min</span>
@@ -219,7 +215,7 @@ export default function Tickets() {
                 </div>
                 <div>
                 <h2>São paulo</h2> 
-                <span>Brasil</span>
+                <div className='airPoint'><span>Brasil</span></div>
                 </div>
               </div>
               <div className='suitcase'>
@@ -259,7 +255,7 @@ export default function Tickets() {
               <div className='ContentCenter'>
                 <div>
                 <h2 >Rio de Janeiro</h2> 
-                <span>Brasil</span>
+                <div className='airPoint'><span>Brasil</span></div>
                 </div>
                  <div>
                   <span>4h 10min</span>
@@ -268,7 +264,7 @@ export default function Tickets() {
                 </div>
                 <div>
                 <h2>Céara</h2> 
-                <span >Brasil</span>
+                <div className='airPoint'><span >Brasil</span></div>
                 </div>
               </div>
               <div className='suitcase'>
