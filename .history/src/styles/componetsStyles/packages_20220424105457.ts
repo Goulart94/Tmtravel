@@ -1,14 +1,7 @@
 
-
 import styled from "styled-components";
 
-export const Container = styled.div`
-width: 100%;
-flex-direction: column;
-display: flex;
-align-items: center;
 
-`
 
 export const ContainerImage =styled.div`
 width:100%;
@@ -22,7 +15,12 @@ transform: 1);
 background-position: 5% -16%;
 border-bottom: 1px solid ${p=> p.theme.colors.yellow300};
 `
+export const ContainerSlider = styled.div`
+width: 100%;
+display: flex;
+align-items: center;
 
+`
 export const Title = styled.h1`
 
     
@@ -54,8 +52,7 @@ export const Title = styled.h1`
     }
 
     img{
-       
-       width: 600px;
+       max-width: 600px;
        height: 400px;
        border-radius: 15px;
        border: 2px solid ${p => p.theme.colors.yellow300};
@@ -64,7 +61,6 @@ export const Title = styled.h1`
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       
       
        max-width: 500px;
        padding: 1rem;
@@ -84,19 +80,12 @@ export const Title = styled.h1`
          margin-bottom: 10px;
        }
        p{
-         margin-top: 1rem;
-         margin-bottom: 1rem;
          font-weight: 400;
        }
        
       .label{
        font-size: 0.7rem;
 
-      }
-      .containerButtom{
-         width:100%;
-         margin-top: 1rem;
-         
       }
        
     
@@ -108,94 +97,15 @@ export const Title = styled.h1`
        color: ${p => p.theme.colors.yellow300};
        font-weight: 900;
       }
-@media (min-width:820px) and (max-width: 1280px){
-
-  
-    max-width: 800px;
-    margin: 2rem;
-    padding: 2rem auto;
-    display: flex;
-    flex-direction: column;
     
-     
-   
-    img{
-       width: 700px;
-       height: 400px;
-      
-    }
-    .ContainerText{
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: column;
-       max-width: 700px;
-       padding-bottom: 0.8rem; 
-    }
-
- }
- @media (min-width: 300px) and (max-width: 450px){
-    
-    max-width: 320px;
-    margin: 2rem;
-    padding: 0.4rem;
-    display: flex;
-    flex-direction: column;
-    
-     
-   
-    img{
-       margin-top: 10px;
-       width: 300px;
-       height: 200px;
-      
-    }
-    p{
-     display: none;
-    }
-    
-   
-    .ContainerText{
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: column;
-       width: 100%;
-       padding-bottom: 0.8rem;
-      }
-
- }
- @media (min-width: 450px) and (max-width: 810px){
-    
-    max-width: 520px;
-    margin: 2rem;
-    padding: 0.4rem;
-    display: flex;
-    flex-direction: column;
-    
-     
-   
-    img{
-       margin-top: 10px;
-       width: 400px;
-       height: 250px;
-      
-    }
-    .ContainerText{
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: column;
-       max-width: 100%;
-       padding-bottom: 0.8rem;
-      }
- }
  `
  export const Button = styled.button`
-
- margin: 0 auto;
- width: 100%;
+ margin-top: 2rem;
+ 
  height: 4rem;
  border: none;
  border-radius: 10px;
- 
+ padding:1rem;
  color:${p=>p.theme.colors.blue700};
  font-weight: 700;
  background: ${p=>p.theme.colors.yellow300};

@@ -53,7 +53,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          </p>
        </div> 
 
-        <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -74,7 +74,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -117,7 +117,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -137,7 +137,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -158,7 +158,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 

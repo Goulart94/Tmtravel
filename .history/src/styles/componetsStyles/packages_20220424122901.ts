@@ -95,7 +95,6 @@ export const Title = styled.h1`
       }
       .containerButtom{
          width:100%;
-         margin-top: 1rem;
          
       }
        

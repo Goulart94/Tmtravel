@@ -54,7 +54,6 @@ export const Title = styled.h1`
     }
 
     img{
-       
        width: 600px;
        height: 400px;
        border-radius: 15px;
@@ -64,7 +63,6 @@ export const Title = styled.h1`
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       
       
        max-width: 500px;
        padding: 1rem;
@@ -72,31 +70,23 @@ export const Title = styled.h1`
        color: ${p => p.theme.colors.blue700};
 
        h2{
-        margin-top: 10px;
         font-size: 2rem;
         font-weight: 900;
         
         
        }
        h3{
-         margin-top: 10px;
+        
          font-weight: 700;
          margin-bottom: 10px;
        }
        p{
-         margin-top: 1rem;
-         margin-bottom: 1rem;
          font-weight: 400;
        }
        
       .label{
        font-size: 0.7rem;
 
-      }
-      .containerButtom{
-         width:100%;
-         margin-top: 1rem;
-         
       }
        
     
@@ -149,16 +139,11 @@ export const Title = styled.h1`
        height: 200px;
       
     }
-    p{
-     display: none;
-    }
-    
-   
     .ContainerText{
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       width: 100%;
+       max-width: 100%;
        padding-bottom: 0.8rem;
       }
 
@@ -189,13 +174,12 @@ export const Title = styled.h1`
  }
  `
  export const Button = styled.button`
-
- margin: 0 auto;
- width: 100%;
+ margin-top: 2rem;
+ 
  height: 4rem;
  border: none;
  border-radius: 10px;
- 
+ padding:1rem;
  color:${p=>p.theme.colors.blue700};
  font-weight: 700;
  background: ${p=>p.theme.colors.yellow300};

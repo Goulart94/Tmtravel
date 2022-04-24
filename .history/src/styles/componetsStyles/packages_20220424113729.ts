@@ -54,7 +54,6 @@ export const Title = styled.h1`
     }
 
     img{
-       
        width: 600px;
        height: 400px;
        border-radius: 15px;
@@ -64,7 +63,6 @@ export const Title = styled.h1`
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       
       
        max-width: 500px;
        padding: 1rem;
@@ -84,19 +82,12 @@ export const Title = styled.h1`
          margin-bottom: 10px;
        }
        p{
-         margin-top: 1rem;
-         margin-bottom: 1rem;
          font-weight: 400;
        }
        
       .label{
        font-size: 0.7rem;
 
-      }
-      .containerButtom{
-         width:100%;
-         margin-top: 1rem;
-         
       }
        
     
@@ -131,71 +122,79 @@ export const Title = styled.h1`
        max-width: 700px;
        padding-bottom: 0.8rem; 
     }
-
+    .spanPrice{
+       font-size: 0.9rem;
+       margin-right: 5px;
+       color: ${p => p.theme.colors.yellow300};
+       font-weight: 900;
+      }
+   
  }
- @media (min-width: 300px) and (max-width: 450px){
+ @media (min-width: 350px)and(max-width: 820px){
     
     max-width: 320px;
     margin: 2rem;
-    padding: 0.4rem;
+    padding: 2rem auto;
     display: flex;
     flex-direction: column;
     
      
    
     img{
-       margin-top: 10px;
-       width: 300px;
+       width: 250px;
        height: 200px;
       
     }
-    p{
-     display: none;
-    }
-    
-   
     .ContainerText{
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       width: 100%;
+       max-width: 700px;
        padding-bottom: 0.8rem;
+      
+       
+       color: ${p => p.theme.colors.blue700};
+
+       h2{
+        margin-top: 10px;
+        font-size: 2rem;
+        font-weight: 900;
+        
+        
+       }
+       h3{
+         margin-top: 10px;
+         font-weight: 700;
+         margin-bottom: 10px;
+       }
+       p{
+         font-weight: 400;
+       }
+       
+      .label{
+       font-size: 0.7rem;
+
+      }
+       
+    
+       
+    }
+    .spanPrice{
+       font-size: 0.9rem;
+       margin-right: 5px;
+       color: ${p => p.theme.colors.yellow300};
+       font-weight: 900;
       }
 
- }
- @media (min-width: 450px) and (max-width: 810px){
-    
-    max-width: 520px;
-    margin: 2rem;
-    padding: 0.4rem;
-    display: flex;
-    flex-direction: column;
-    
-     
-   
-    img{
-       margin-top: 10px;
-       width: 400px;
-       height: 250px;
-      
-    }
-    .ContainerText{
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: column;
-       max-width: 100%;
-       padding-bottom: 0.8rem;
-      }
  }
  `
  export const Button = styled.button`
-
- margin: 0 auto;
- width: 100%;
+ margin-top: 2rem;
+ 
  height: 4rem;
  border: none;
  border-radius: 10px;
- 
+ padding:1rem;
  color:${p=>p.theme.colors.blue700};
  font-weight: 700;
  background: ${p=>p.theme.colors.yellow300};

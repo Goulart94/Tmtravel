@@ -95,8 +95,9 @@ export const Title = styled.h1`
       }
       .containerButtom{
          width:100%;
-         margin-top: 1rem;
-         
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
       }
        
     
@@ -149,16 +150,11 @@ export const Title = styled.h1`
        height: 200px;
       
     }
-    p{
-     display: none;
-    }
-    
-   
     .ContainerText{
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       width: 100%;
+       max-width: 100%;
        padding-bottom: 0.8rem;
       }
 
@@ -190,8 +186,8 @@ export const Title = styled.h1`
  `
  export const Button = styled.button`
 
- margin: 0 auto;
- width: 100%;
+ 
+ width: 90%;
  height: 4rem;
  border: none;
  border-radius: 10px;

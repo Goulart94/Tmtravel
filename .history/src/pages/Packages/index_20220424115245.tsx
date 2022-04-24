@@ -43,17 +43,16 @@ export default function Packages( {contentSaleOne} : ContentOne) {
       </div>
       <div className='ContainerText'>
        <div>
-         
+         <p>
+          {sale1?.details}
+         </p>
          <h2>{sale1?.title}</h2>
          <h3><span className='spanPrice'>Desde </span>R$: {sale1?.price}</h3>
          <span>{sale1?.datailsTravel}</span><br />
          <span className='label'>*preço por passageiro</span>
-         <p>
-          {sale1?.details}
-         </p>
        </div> 
 
-        <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -74,7 +73,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
          </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -85,19 +84,16 @@ export default function Packages( {contentSaleOne} : ContentOne) {
       </div>
       <div className='ContainerText'>
        <div>
-        
+         <p>
+          {sale3?.details}
+         </p>
          <h2>{sale3?.title}</h2>
          <h3><span className='spanPrice'>Desde </span>R$: {sale3?.price}</h3>
          <span>Estadia 7 noites hotel + Vooo</span><br />
          <span className='label'>*preço por passageiro</span>
-         <p>
-          {sale3?.details}
-         </p>
-         <div className='containerButtom'><Button>Entra em contato</Button></div>
-         
        </div> 
 
-        
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -108,16 +104,16 @@ export default function Packages( {contentSaleOne} : ContentOne) {
       </div>
       <div className='ContainerText'>
        <div>
+         <p>
+          {sale4?.details}
+         </p>
          <h2>{sale4?.title}</h2>
          <h3><span className='spanPrice'>Desde </span>R$: {sale4?.price}</h3>
          <span>Estadia 7 noites hotel + Vooo</span><br />
          <span className='label'>*preço por passageiro</span>
-         <p>
-          {sale4?.details}
-         </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -128,16 +124,16 @@ export default function Packages( {contentSaleOne} : ContentOne) {
       </div>
       <div className='ContainerText'>
        <div>
+         <p>
+          {sale5?.details}
+         </p>
          <h2>{sale5?.title}</h2>
          <h3><span className='spanPrice'>Desde </span>R$: {sale5?.price}</h3>
          <span>Estadia 7 noites hotel + Vooo</span><br />
          <span className='label'>*preço por passageiro</span>
-         <p>
-          {sale5?.details}
-         </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 
@@ -148,17 +144,16 @@ export default function Packages( {contentSaleOne} : ContentOne) {
       </div>
       <div className='ContainerText'>
        <div>
-         
+         <p>
+          {sale6?.details}
+         </p>
          <h2>{sale6?.title}</h2>
          <h3><span className='spanPrice'>Desde </span>R$: {sale6?.price}</h3>
          <span>Estadia 7 noites hotel + Vooo</span><br />
          <span className='label'>*preço por passageiro</span>
-         <p>
-          {sale6?.details}
-         </p>
        </div> 
 
-       <div className='containerButtom'><Button>Entra em contato</Button></div>
+        <Button>Entra em contato</Button>
         
       </div>
 

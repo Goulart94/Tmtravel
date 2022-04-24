@@ -95,7 +95,6 @@ export const Title = styled.h1`
       }
       .containerButtom{
          width:100%;
-         margin-top: 1rem;
          
       }
        
@@ -158,7 +157,7 @@ export const Title = styled.h1`
        display: flex;
        flex-wrap: wrap;
        flex-direction: column;
-       width: 100%;
+       max-width: 100%;
        padding-bottom: 0.8rem;
       }
 
