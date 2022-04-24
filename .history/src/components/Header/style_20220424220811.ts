@@ -150,16 +150,11 @@ border-bottom: solid 3px ${p=>p.theme.colors.yellow300};
 
 }
 @media (min-width: 300px) and (max-width: 720px){
-    width: 70%;
+    width: 50%;
     height: 100vh;
-    border-bottom: none;
-    border-right: solid 2px ${p=>p.theme.colors.yellow300};
     
     .iconClose{
    margin-left: 1rem;
-   font-size: 2.5rem;
-   
-    
 
    }
 
@@ -183,14 +178,12 @@ img{
     position:relative;
     top: 9px;
     right: 30px;
-    
   
     
 }
 @media (min-width: 300px) and (max-width: 720px){
   img{
     display: none;
-    
   }
 }
 
@@ -243,26 +236,19 @@ nav{
 
     nav{
     width: 100%;
-    height: 90vh;
     color: ${p=> p.theme.colors.white100};
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
-   
-    
     
     a{
-        width: 90%;
-        margin: 0 auto;
+        margin: 0;
         display: block;
         position: none;
         height: 4rem;
         padding:0;
         line-height: 5rem;
-        font-size:1.6rem;
-       
-        border: 1px solid ${p=> p.theme.colors.gray100};
+        font-size:1.1rem;
 
         .iconBed{
             position: relative;
@@ -272,10 +258,9 @@ nav{
         }
 
         & + a{
-            margin: 0 auto;
+                margin-left: 2rem;
 
              }
-           
         &:hover{
             filter: brightness(0.8);
             cursor: pointer;

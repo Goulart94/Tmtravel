@@ -29,11 +29,8 @@ return  (
                <div onClick={()=> setNav(true)} >
                   <label ><GiHamburgerMenu className='icon'/>Menu</label>
                </div>
-               
-                  <img src='../../images/logo.png' alt="logo" className='configImg' />
-               
-                 
-            </div>  
+                 <img src='../../images/logo.png' alt="logo" className='configImg'/>
+               </div>  
         </MenuDiv>   
 
    )}
@@ -48,13 +45,13 @@ return (
                <CgCloseO onClick={()=> setNav(false)} className='iconClose'/>
                <img src='../../images/logo.png' alt="logo" />
             </ContentImg>
-         <ContentNav>
+            <ContentNav>
                <nav>
-                  <Link href='./'><a className={asPath === '/' ? 'active' : ''} onClick={()=>setNav(false)}><ImHome3 fontSize={'1.3rem'}/> Home</a></Link>
-                  <Link href="./Tickets"><a className={asPath === '/Tickets' ? 'active' : ''} onClick={()=>setNav(false)}><ImAirplane fontSize={'1rem'}/> Passagens</a></Link>
-                  <Link href='./Packages'><a className={asPath === '/Packages' ? 'active' : ''} onClick={()=>setNav(false)}><MdAirlineSeatIndividualSuite className='iconBed'/> Pacotes</a></Link>
-               
-                  <Link href='./Contact'><a className={asPath === '/Contact' ? 'active' : ''} onClick={()=>setNav(false)}><ImPhone fontSize={'1.2rem'}/> Contatos</a></Link>
+                  <Link href='./'><a className={asPath === '/' ? 'active' : '' && setNav(false) }><ImHome3 fontSize={'1.3rem'}/> Home</a></Link>
+                  <Link href="./Tickets"><a className={asPath === '/Tickets' ? 'active' : ''}><ImAirplane fontSize={'1rem'}/> Passagens</a></Link>
+                  <Link href='./Packages'><a className={asPath === '/Packages' ? 'active' : ''}><MdAirlineSeatIndividualSuite className='iconBed'/> Pacotes</a></Link>
+                  <Link href='./Insurance'><a className={asPath === '/Insurance' ? 'active' : ''}><FaSuitcase fontSize={'1.1rem'}/> Seguros</a></Link>
+                  <Link href='./Contact'><a className={asPath === '/Contact' ? 'active' : ''}><ImPhone fontSize={'1.2rem'}/> Contatos</a></Link>
                </nav>
             </ContentNav>
 

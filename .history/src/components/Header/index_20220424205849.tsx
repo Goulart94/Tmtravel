@@ -29,11 +29,8 @@ return  (
                <div onClick={()=> setNav(true)} >
                   <label ><GiHamburgerMenu className='icon'/>Menu</label>
                </div>
-               
-                  <img src='../../images/logo.png' alt="logo" className='configImg' />
-               
-                 
-            </div>  
+                 <img src='../../images/logo.png' alt="logo" className='configImg'/>
+               </div>  
         </MenuDiv>   
 
    )}

@@ -151,13 +151,12 @@ border-bottom: solid 3px ${p=>p.theme.colors.yellow300};
 }
 @media (min-width: 300px) and (max-width: 720px){
     width: 70%;
-    height: 100vh;
+    height: 90vh;
     border-bottom: none;
     border-right: solid 2px ${p=>p.theme.colors.yellow300};
     
     .iconClose{
    margin-left: 1rem;
-   font-size: 2.5rem;
    
     
 
@@ -243,11 +242,11 @@ nav{
 
     nav{
     width: 100%;
-    height: 90vh;
+    height: 500px;
     color: ${p=> p.theme.colors.white100};
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
    
     

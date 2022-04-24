@@ -19,6 +19,8 @@ div{
     float: left;
     flex-wrap: wrap;
 
+   
+ 
 }
 label{
     
@@ -60,47 +62,18 @@ label{
     
     } 
 }
-@media (min-width: 300px) and (max-width: 720px){
-
-   .Container{
+@media (min-width: 300px) and (max-width: 520px){
+    .Container{
     width:100%;
     text-align: center;
     display: flex;
     justify-content: space-between;
     img{
-    width: 90px;
-    position: fixed;
-    right: 0;
-    top: 18px;
-    } 
-   }
-   label{
     
-       
-    .icon{
-   margin-left: 0;
-   margin-top: 2.4rem;
-   font-size: 2rem;
-   color: ${p => p.theme.colors.yellow300};
-   position:relative;
-   bottom:-5px;
-   transition: 0.2s;
-   }
-
- 
-  
-    font-size: 1.2rem;
-    color: ${p => p.theme.colors.yellow300};
-    margin-top: 1rem;
-    margin-left: 2rem;
-    padding-right: 1rem;
-    transition: 0.2s;
-
-    &:hover{
-       cursor: pointer;
-       filter: brightness(0.6);
-      
-    }
+    
+    
+    
+    } 
 }
 }
 
@@ -130,6 +103,9 @@ animation-play-state: running;
 display:flex;
 position: fixed;
 z-index: 3;
+
+
+
 border-bottom: solid 3px ${p=>p.theme.colors.yellow300};
 .iconClose{
    font-size: 1.8rem;
@@ -147,21 +123,6 @@ border-bottom: solid 3px ${p=>p.theme.colors.yellow300};
    }
     
   
-
-}
-@media (min-width: 300px) and (max-width: 720px){
-    width: 70%;
-    height: 100vh;
-    border-bottom: none;
-    border-right: solid 2px ${p=>p.theme.colors.yellow300};
-    
-    .iconClose{
-   margin-left: 1rem;
-   font-size: 2.5rem;
-   
-    
-
-   }
 
 }
 
@@ -183,15 +144,8 @@ img{
     position:relative;
     top: 9px;
     right: 30px;
-    
   
     
-}
-@media (min-width: 300px) and (max-width: 720px){
-  img{
-    display: none;
-    
-  }
 }
 
 `
@@ -237,58 +191,8 @@ nav{
         }
              
     }
+  
 
-}
-@media (min-width: 300px) and (max-width: 720px){
-
-    nav{
-    width: 100%;
-    height: 90vh;
-    color: ${p=> p.theme.colors.white100};
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-   
-    
-    
-    a{
-        width: 90%;
-        margin: 0 auto;
-        display: block;
-        position: none;
-        height: 4rem;
-        padding:0;
-        line-height: 5rem;
-        font-size:1.6rem;
-       
-        border: 1px solid ${p=> p.theme.colors.gray100};
-
-        .iconBed{
-            position: relative;
-            top: 5px;
-            font-size: 1.4rem;
-
-        }
-
-        & + a{
-            margin: 0 auto;
-
-             }
-           
-        &:hover{
-            filter: brightness(0.8);
-            cursor: pointer;
-            
-        }
-        &.active{
-            color: ${p=>p.theme.colors.yellow300};
-            
-        }
-             
-    }
-
-}
 }
 
 

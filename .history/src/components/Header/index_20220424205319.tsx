@@ -29,11 +29,8 @@ return  (
                <div onClick={()=> setNav(true)} >
                   <label ><GiHamburgerMenu className='icon'/>Menu</label>
                </div>
-               
-                  <img src='../../images/logo.png' alt="logo" className='configImg' />
-               
-                 
-            </div>  
+                 <img src='../../images/logo.png' alt="logo" className='configImg'/>
+               </div>  
         </MenuDiv>   
 
    )}
@@ -48,7 +45,7 @@ return (
                <CgCloseO onClick={()=> setNav(false)} className='iconClose'/>
                <img src='../../images/logo.png' alt="logo" />
             </ContentImg>
-         <ContentNav>
+            <ContentNav>
                <nav>
                   <Link href='./'><a className={asPath === '/' ? 'active' : ''} onClick={()=>setNav(false)}><ImHome3 fontSize={'1.3rem'}/> Home</a></Link>
                   <Link href="./Tickets"><a className={asPath === '/Tickets' ? 'active' : ''} onClick={()=>setNav(false)}><ImAirplane fontSize={'1rem'}/> Passagens</a></Link>

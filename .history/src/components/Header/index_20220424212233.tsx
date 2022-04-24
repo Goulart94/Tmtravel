@@ -30,7 +30,7 @@ return  (
                   <label ><GiHamburgerMenu className='icon'/>Menu</label>
                </div>
                
-                  <img src='../../images/logo.png' alt="logo" className='configImg' />
+                  <img src='../../images/logo.png' alt="logo" />
                
                  
             </div>  

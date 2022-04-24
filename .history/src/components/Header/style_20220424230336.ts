@@ -157,8 +157,7 @@ border-bottom: solid 3px ${p=>p.theme.colors.yellow300};
     
     .iconClose{
    margin-left: 1rem;
-   font-size: 2.5rem;
-   
+   margin-bottom: 2rem;
     
 
    }
@@ -243,11 +242,11 @@ nav{
 
     nav{
     width: 100%;
-    height: 90vh;
+    height: 500px;
     color: ${p=> p.theme.colors.white100};
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
    
     

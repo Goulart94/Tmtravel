@@ -157,7 +157,6 @@ border-bottom: solid 3px ${p=>p.theme.colors.yellow300};
     
     .iconClose{
    margin-left: 1rem;
-   font-size: 2.5rem;
    
     
 
