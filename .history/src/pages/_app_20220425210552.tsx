@@ -30,19 +30,18 @@ const [loader, setLoader] = useState(false);
   });
   Router.events.on('routeChangeComplete', ()=>{
     console.log("new router")
-    setLoader(false);
+    setLoader(true);
   });
 
   return(
  <ThemeProvider theme={ligth}>
 
-
  <ContainerFont>
   <Header></Header>
-  {loader &&<Loading/>}
+  
   <Component {...pageProps} /> 
   <ThemeLigthGlobal/>
-   
+  
   <Footer></Footer>
   </ContainerFont>
  

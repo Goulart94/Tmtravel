@@ -36,6 +36,7 @@ export default function Packages( {contentSaleOne} : ContentOne) {
     <Container>
     <ContainerImage/>
     <Title>Pacotes</Title>
+    
     <PackagesSection>
       <div>
         <img src={sale1?.image} alt="" />

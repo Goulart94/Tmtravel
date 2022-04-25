@@ -54,9 +54,7 @@ label{
     text-align: center;
     img{
     width: 110px;
-    position:relative;
-    right: 6rem;
-    top: 10px;
+    margin: 0 auto;
     
     } 
 }

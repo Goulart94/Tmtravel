@@ -21,7 +21,7 @@ background-repeat: no-repeat;
 background-size: cover;
 transform: 1;
 border-bottom: 1px solid ${p=> p.theme.colors.yellow300};
-@media(max-width: 850px){
+@media(max-width: 500px){
    background-position: 31% 40%;
 }
 

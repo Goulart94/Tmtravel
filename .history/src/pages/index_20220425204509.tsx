@@ -38,7 +38,7 @@ export default function  Home  ( {contentSaleOne} : ContentOne ){
   <ContainerSales contentSaleOne={contentSaleOne.map(p => {
     return p
   })} />
-
+<Loading/>
    
     </>
   )

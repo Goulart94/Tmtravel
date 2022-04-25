@@ -39,10 +39,10 @@ const [loader, setLoader] = useState(false);
 
  <ContainerFont>
   <Header></Header>
-  {loader &&<Loading/>}
+  {loader && <Loading/>}
   <Component {...pageProps} /> 
   <ThemeLigthGlobal/>
-   
+  
   <Footer></Footer>
   </ContainerFont>
  

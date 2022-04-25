@@ -30,7 +30,7 @@ const [loader, setLoader] = useState(false);
   });
   Router.events.on('routeChangeComplete', ()=>{
     console.log("new router")
-    setLoader(false);
+    setLoader(true);
   });
 
   return(
@@ -39,10 +39,10 @@ const [loader, setLoader] = useState(false);
 
  <ContainerFont>
   <Header></Header>
-  {loader &&<Loading/>}
+  
   <Component {...pageProps} /> 
   <ThemeLigthGlobal/>
-   
+  {loader && <Loading/>}
   <Footer></Footer>
   </ContainerFont>
  

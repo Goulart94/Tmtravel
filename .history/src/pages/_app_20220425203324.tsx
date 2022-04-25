@@ -5,8 +5,6 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { ThemeLigthGlobal } from '../styles/global';
 import ligth from '../styles/theme/ligth';
-import Loading from '../components/screenLoading';
-import { useState } from 'react';
 
 
 
@@ -22,27 +20,22 @@ font: 400 1rem "Roboto", sans-serif;
 
 function MyApp({ Component, pageProps }:any) {
 
-const [loader, setLoader] = useState(false);
   Router.events.on('routeChangeStart', ()=>{
-    console.log("router is changing...")
-    setLoader(true);
-
+    console.log("router is changin...")
   });
   Router.events.on('routeChangeComplete', ()=>{
     console.log("new router")
-    setLoader(false);
   });
 
   return(
  <ThemeProvider theme={ligth}>
 
-
  <ContainerFont>
   <Header></Header>
-  {loader &&<Loading/>}
+  
   <Component {...pageProps} /> 
   <ThemeLigthGlobal/>
-   
+  
   <Footer></Footer>
   </ContainerFont>
  

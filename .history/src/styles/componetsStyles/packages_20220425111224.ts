@@ -11,7 +11,9 @@ align-items: center;
 `
 
 export const ContainerImage =styled.div`
-
+@media (max-width:500px){
+   background-position: 10% 40%;
+}
 width:100%;
 height: 350px;
 margin: 0;
@@ -20,10 +22,8 @@ background-repeat: no-repeat;
 background-repeat: no-repeat;
 background-size: cover;
 transform: 1;
+background-position: 5% -16%;
 border-bottom: 1px solid ${p=> p.theme.colors.yellow300};
-@media(max-width: 850px){
-   background-position: 31% 40%;
-}
 
 
 `
@@ -113,7 +113,7 @@ export const Title = styled.h1`
        color: ${p => p.theme.colors.yellow300};
        font-weight: 900;
       }
-@media (min-width:810px) and (max-width: 1280px){
+@media (min-width:820px) and (max-width: 1280px){
 
   
     max-width: 800px;
@@ -138,7 +138,7 @@ export const Title = styled.h1`
     }
 
  }
- @media (max-width: 450px){
+ @media (min-width: 300px) and (max-width: 450px){
     
     max-width: 320px;
     margin: 2rem;

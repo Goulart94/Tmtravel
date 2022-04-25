@@ -55,7 +55,7 @@ label{
     img{
     width: 110px;
     position:relative;
-    right: 6rem;
+    right: 4.5rem;
     top: 10px;
     
     } 
